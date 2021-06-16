@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+
+        <!-- JS and CSS will go here --> 
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1">
+      
+        <title>Beasts</title>
+        
+        <link rel = "stylesheet" href = "./BestiaryStyle.css">
+        <script src="./BestiaryFunc.js"></script>
+    </head>
+    
+    <body>
+        <!--Site Nav-->
+        <a href="../index.html" class="HomeButton">Home</a>
+        
+        <center><h1>Beasts</h1></center>
+        <h3><p>Beasts refers to birds, insects, animals, essentially any natural fauna exists 
+         alongside Sentients and does not explicitly make an enemy out of them, nor whose purpose
+         is solely to kill; this is aside from Monstrosities, which are unnatural and cannot live
+         alongside Sentients in any capacity. The stats of many Beasts can be used in lieu of 
+         another that is not given, e.g. the stats for a lion can be used for a tiger or a 
+         panther, or slightly modifying the stats of a horse can be used to make a donkey, and so
+         on.<br>
+        &emsp;&emsp;&ensp;If a character is attempting to handle a Beast and “persuade” it to do
+         something for them, they must make a Beast Handling check against the Beast’s Insight 
+         check: on a success, they convince the Beast to trust them. If the character gives the 
+         Beast food or something it wants, they have advantage on the check, but if the Beast is
+         angry or afraid of the character or if they are in combat with the beast, they have 
+         disadvantage.</p></h3>
+        
+        <h2>Giant and Dire Beasts</h2>
+        <h3><p>There are 3 categories of Beasts, based on their relative size (different from 
+         their actual Size): normal, giant, and dire. Normal Beasts are those that are most 
+         frequently known and seen in the wild and are almost always Tier 0-1; giant Beasts are
+         much larger than their normal variants and are usually Tier 1; dire Beasts are 
+         relatively massive, always Big or bigger (or in the case of the Dire Shark, <i>much</i>
+         bigger), and are usually Tier 1-2.</p></h3>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Bear</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 8 (4) <b>CON</b> 7 (3) <b>AGI</b> 4 (2) <b>DEX</b> 1 (0) 
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 5 (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 4<br>
+                    <b>Health</b> 30 (4d8 +12)<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 45 feet<br>
+                    <b>Skills</b> Climb 2 (+4), Insight 3 (+2), Intimidation 4 (+2), Nature 2 
+                     (+1), Perception 3 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest, mountains, tundra, underground<br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d6 +4 physical damage.<br>
+                    <b>Claws.</b> Melee attack, 1 target, 1/action, 2d6 +4 physical damage.<br>
+                    <b>Crush.</b> Melee attack, 1 target that is <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>,
+                     1/action, 3d8 +4 physical damage.<br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Bird</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 0 (0) <b>CON</b> 4 (2) <b>AGI</b> 6 (3) <b>DEX</b> 4 (2) 
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 5 <i>(Dodge 5)</i>, <b>RaDEF</b> 11<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 1 (+2), Ref. 3 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 10 feet, Flying 30 feet<br>
+                    <b>Skills</b> Appraisal 1 (+2), Insight 2 (+2), Mechanics 1 (+2), Nature 1 
+                     (+2), Navigation 4 (+2), Perception 4 (+2), Performance 2 (+2), Sleight of 
+                     Hand 2 (+2), Stealth 3 (+2)<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> All except underground
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Peck.</b> Melee attack, 1 target, 1/action, 1d2 +2 physical damage.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Cat</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 0 (0) <b>CON</b> 4 (2) <b>AGI</b> 8 (4) <b>DEX</b> 2 (1) 
+                     <b>INT</b> 3 (1) <b>WIS</b> 5 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 6 <i>(Armor 1, Dodge 5)</i>, <b>RaDEF</b> 12<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 1 (+2), Ref. 3 (+6), Will. 3 (+3)<br>
+                    <b>Speed</b> Walking 35 feet<br>
+                    <b>Skills</b> Climb 3, Insight 2 (+2), Perception 3 (+2), Persuasion 2 (+3),
+                     Stealth 4 (+1), Tracking 2 (+2)<br>
+                    <b>Senses</b> Darkvision<br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Keen Hearing and Smell.</b> The cat has advantage on Perception checks 
+                     that rely on hearing and smelling.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 1 physical damage.<br>
+                    <b>Claws.</b> Melee attack, 1 target, 1/action, 1d2 +1 physical damage.
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Crab</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 1 (0) <b>CON</b> 4 (2) <b>AGI</b> 4 (2) <b>DEX</b> 4 (2)
+                     <b>INT</b> 0 (0) <b>WIS</b> 4 (2) <b>CHA</b> 2 (1)<br>
+                    <b>DEF</b> 6 <i>(Armor 2, Dodge 4)</i>, <b>RaDEF</b> 12<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 2 (+2), Ref. 2 (+2), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking and swimming 15 feet<br>
+                    <b>Skills</b> Intimidation 1 (+1), Perception 2 (+2), Stealth 4 (+2)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Coast, sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Amphibious.</b> The crab can breathe equally well in air and water.<br>
+                    <b>Camouflage.</b> While not moving and in its natural environment, the 
+                     crab’s Stealth checks have advantage.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Pinch.</b> Melee attack, 1 target, 1/action, 1d2 +1 physical damage.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Crab, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 6 (3) <b>CON</b> 4 (2) <b>AGI</b> 4 (2) <b>DEX</b> 3 (1) 
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 2 (1)<br>
+                    <b>DEF</b> 5 <i>(Armor 4, Dodge 1)</i>, <b>RaDEF</b> 9<br>
+                    <b>Health</b> 9 (2d4 +4)<br>
+                    <b>Damage Resistances</b> Physical<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+2), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 25 feet<br>
+                    <b>Skills</b> Intimidation 2 (+1), Perception 3 (+2), Stealth 3 (+1), Swim 2 (+3)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Coast, sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Amphibious.</b> The giant crab can breathe equally well in air and water.<br>
+                    <b>Camouflage.</b> While not moving and in its natural environment, the 
+                     giant crab’s Stealth checks have advantage.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Pinch.</b> Melee attack, 1 target, 1/action, 2d6 +3 physical damage.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Crab, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 10 (5) <b>CON</b> 6 (3) <b>AGI</b> 2 (1) <b>DEX</b> 3 (1) 
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 6  (3)<br>
+                    <b>DEF</b> 8<i>(Armor 8)</i>, <b>RaDEF</b> 9<br>
+                    <b>Health</b> 34 (4d10 +12)<br>
+                    <b>Damage Resistances</b> Physical<br>
+                    <b>Saves</b> Fort. 4 (+5), Ref. 1 (+1), Will. 2 (+3)<br>
+                    <b>Speed</b> Walking 35 feet<br>
+                    <b>Skills</b> Intimidation 5 (+3), Perception 3 (+2), Stealth 1 (+1), Swim 1 (+5)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Coast, sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Amphibious.</b> The dire crab can breathe equally well in air and water.<br>
+                    <b>Camouflage.</b> While not moving and in its natural environment, the 
+                     dire crab’s Stealth checks have advantage.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Pinch.</b> Melee attack, 1 target, 1/action, 3d8 +5 physical damage.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster scale.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Fish</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 0 (0) <b>CON</b> 3 (1) <b>AGI</b> 6 (3) <b>DEX</b> 0 (0)
+                     <b>INT</b> 0 (0) <b>WIS</b> 3 (1) <b>CHA</b> 0 (0)<br>
+                    <b>DEF</b> 4 <i>(Armor 1, Dodge 3)</i>, <b>RaDEF</b> 10<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 1 (+1), Ref. 2 (+3), Will. 1 (+1)<br>
+                    <b>Speed</b> Swimming 20 feet<br>
+                    <b>Skills</b> Stealth 3, Perception 2 (+2)<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Coast, sea, swamp
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Fly Trap, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 6 (3) <b>CON</b> 6 (3) <b>AGI</b> 0 (0) <b>DEX</b> 0 (0)
+                     <b>INT</b> 1 (0) <b>WIS</b> 2 (1) <b>CHA</b> 1 (0)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 3<br>
+                    <b>Health</b> 7 (1d8 +3)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 1, Will. 1 (+1)<br>
+                    <b>Skills</b> Nature 2 (+1), Perception 2 (+2), Stealth 3<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest, swamp<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Lie in Wait.</b> While not moving, the dire fly trap has advantage on 
+                     Stealth checks.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 4d8 +3 damage; if the target 
+                     takes final damage, they must succeed on a Fort./Ref. save against twice the
+                     final damage dealt or be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">restrained</a>
+                     by the dire fly trap.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Gorilla</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 8 (4) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 5 (2)
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 3 <i>(Armor 2, Dodge 1)</i>, <b>RaDEF</b> 5<br>
+                    <b>Health</b> 30 (4d8 +12)<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 3 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 40 feet<br>
+                    <b>Skills</b> Climb 3 (+4), Insight 3 (+2), Intimidation 3 (+2), 
+                     Nature 1 (+1), Perception 2 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Punch.</b> Melee attack, 1 target, 1/action, 2d10 +4 physical damage.
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Horse</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 8 (4) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 0 (0) 
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 4<br>
+                    <b>Health</b> 15 (2d8 +6)<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 45 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Intimidation 3 (+2), Nature 1 (+1),
+                     Perception 2 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Plains, urbanity
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Kick.</b> Melee attack, 1 target, 1/action, 2d8+3 physical damage; if the
+                     target takes final damage, they must succeed on a Fort. save against twice
+                     the final damage dealt or be knocked <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Insect</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 0 (0) <b>CON</b> 2 (1) <b>AGI</b> 4 (2) <b>DEX</b> 8 (4) 
+                     <b>INT</b> 0 (0) <b>WIS</b> 1 (0) <b>CHA</b> 0 (0)<br>
+                    <b>DEF</b> 7 <i>(Armor 1, Dodge 6)</i>, <b>RaDEF</b> 13<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 1 (+1), Ref. 3 (+4), Will. 0<br>
+                    <b>Speed</b> Walking 10 feet (may have Flying 40 feet)<br>
+                    <b>Skills</b> Perception 3, Stealth 4 (+4), Swim 1<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> All<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Insect Climb.</b> An insect can climb difficult surfaces, including 
+                     upside-down, without issue.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 2/action, 0 damage; if the insect is 
+                     carrying a disease, the target must succeed on a DC 14 Fort. save or be 
+                     inflicted with the same disease.
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Insect, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 3 (1) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 3 (1)
+                     <b>INT</b> 1 (0) <b>WIS</b> 2 (1) <b>CHA</b> 3 (1)<br>
+                    <b>DEF</b> 4 <i>(Armor 2, Dodge 2)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 11 (2d4 +6)<br>
+                    <b>Saves</b> Fort. 2 (+3), Ref. 4 (+3), Will. 1 (+1)<br>
+                    <b>Speed</b> Walking 30 feet (may have Flying 25 feet)<br>
+                    <b>Skills</b> Intimidation 3 (+1), Nature 1, Perception 3 (+1), Stealth 2 (+1),
+                     Swim 3 (+1)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> All<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Insect Climb.</b> A giant insect can climb difficult surfaces, including 
+                     upside-down, without issue.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d6 +1 physical damage; if the
+                     giant insect is carrying a disease and this attack deals final damage, the
+                     target must succeed on a DC 20 Fort. save or be inflicted with the same 
+                     disease.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Insect, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 8 (4) <b>CON</b> 6 (3) <b>AGI</b> 4 (2) <b>DEX</b> 1 (0)
+                     <b>INT</b> 2 (1) <b>WIS</b> 2 (1) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 4 <i>(Armor 4)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 30 (4d8 +12)<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 1 (+2), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 35 feet (May have Flying 30 feet)<br>
+                    <b>Skills</b> Intimidation 3 (+2), Nature 1 (+1), Perception 4 (+1),
+                     Stealth 1, Swim 3 (+4)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> All<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Insect Climb.</b> A dire insect can climb difficult surfaces, including 
+                     upside-down, without issue.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 3d8 +4 physical damage; if the
+                     dire insect is carrying a disease and this attack deals final damage, the
+                     target must succeed on a Fort. save against twice the final damage dealt or
+                     be inflicted with the same disease.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Insect Swarm</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small/Medium/Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 4 (2) <b>CON</b> 4 (2) <b>AGI</b> 6 (3) <b>DEX</b> 10 (5)
+                     <b>INT</b> 0 (0) <b>WIS</b> 3 (1) <b>CHA</b> 2 (1)<br>
+                    <b>DEF</b> 7/6/5 <i>(Armor 1, Dodge 6/5/4)</i>, <b>RaDEF</b> 11/9/7<br>
+                    <b>Health</b> 22 (4d6 +8)<br>
+                    <b>Saves</b> Fort. 2 (+2), Ref. 4 (+5), Will. 1 (+1)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Grappled</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Prone</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Restrained</a><br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Blinded</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Charmed</a><br>
+                    <b>Speed</b> Walking 30/35/40 feet (may have Flying 40 feet)<br>
+                    <b>Skills</b> Perception 5 (+1), Stealth 1 (+5), Swim 2 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> All
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Consume.</b> If an insect swarm reduces a creature to 0 Health, it spends
+                     its next 2 actions consuming that creature’s flesh.<br>
+                    <b>Insect Climb.</b> An insect swarm can climb difficult surfaces, including
+                     upside down, without issue.<br>
+                    <b>Swarm.</b> An insect swarm can occupy the same space as a creature; if it
+                     does, it has advantage on each of its attacks against that creature.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 3/action, 3d6 +5 physical damage; if the
+                     insect swarm is carrying a disease and deals final damage with this attack,
+                     the target must succeed on a Fort. save against twice the final damage dealt
+                     or be inflicted with the same disease.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Lion</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 6 (3) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 1 (0)
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 5 (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 4<br>
+                    <b>Health</b> 30 (4d8 +12)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 40 feet<br>
+                    <b>Skills</b> Climb 2 (+3), Intimidation 3 (+2), Nature 1 (+1), 
+                     Navigation 2 (+2), Perception 2 (+2), Stealth 3, Swim 1 (+3), 
+                     Tracking 3 (+2)<br>
+                    <b>Senses</b> Darkvision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Plains
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 3d6 +3 physical damage.<br>
+                    <b>Claws.</b> Melee attack, 1 target, 1/action, 3d6 +3 physical damage.<br>
+                    <b>Jump.</b> A lion can jump 30 feet straight into the air.<br>
+                    <b>Tackle.</b> Melee attack, 1 target, 1/action; target must make a 
+                     Fort./Ref. save against the lion’s STR check or be knocked <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>
+                     and <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the lion; if the lion wins the contest, they can take the <b>Bite</b> or
+                     <b>Claws</b> action as part of this action.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Monkey</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 5 (2) <b>CON</b> 5 (2) <b>AGI</b> 6 (3) <b>DEX</b> 7 (3)
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 3 (1)<br>
+                    <b>DEF</b> 5 <i>(Armor 1, Dodge 4)</i>, <b>RaDEF</b> 9<br>
+                    <b>Health</b> 4 (1d4 +2)<br>
+                    <b>Saves</b> Fort. 4 (+2), Ref. 3 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Speed Walking 30 feet<br>
+                    <b>Skills</b> Climb 4 (+2), Intimidation 2 (+1), Nature 1 (+1), 
+                     Navigation 1 (+2), Perception 2 (+2), Sleight of Hand 2 (+3), Stealth 1 (+3),
+                     Swim 1 (+2), Tracking 1 (+2)<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Forest, ruins, swamp
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Punch.</p> Melee attack, 1 target, 2/action, 2d4 +2 physical damage.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Octopus</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 4 (2) <b>CON</b> 4 (2) <b>AGI</b> 1 (0) <b>DEX</b> 8 (4)
+                     <b>INT</b> 4 (2) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 4 <i>(Armor 2, Dodge 2)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 9 (2d4 +4)<br>
+                    <b>Saves</b> Fort. 2 (+2), Ref. 2 (+4), Will. 3 (+3)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Grappled</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Restrained</a><br>
+                    <b>Speed</b> Walking 10 feet, Swimming 20 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Perception 2 (+2), Sleight of Hand 2 (+4), 
+                     Stealth 3 (+4)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Coast, sea, swamp
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>8 Arms.</b> An octopus has 8 arms and can perform up to 4 tasks simultaneously.<br>
+                    <b>Camouflage.</b> The octopus can use an action to camouflage itself with 
+                     its immediate environment, giving it advantage on any Stealth checks it 
+                     makes until it moves.<br>
+                    <b>Elastic Body.</b> An octopus can fit through any space it can fit its beak
+                     through.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Strangle.</b> Melee attack, 1 target, 2/action, 2d6 +2 physical damage; 
+                     target must make a Fort./Ref. save against twice the amount of final damage
+                     dealt or be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a> by the octopus.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Octopus, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 6 (3) <b>CON</b> 4 (2) <b>AGI</b> 4 (2) <b>DEX</b> 8 (4)
+                     <b>INT</b> 5 (2) <b>WIS</b> 4 (2) <b>CHA</b> 5 (2)<br>
+                    <b>DEF</b> 6 <i>(Armor 4, Dodge 2)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 13 (2d8 +4)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 3 (+4), Will. 2 (+2)<br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Grappled</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Restrained</a><br>
+                    <b>Speed</b> Walking 20 feet, Swimming 35 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Perception 3 (+2), Sleight of Hand 2 (+4),
+                     Stealth 3 (+4)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Coast, sea, swamp<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>8 Arms.</b> A giant octopus has 8 arms and can perform up to 4 tasks 
+                     simultaneously.<br>
+                    <b>Camouflage.</b> The giant octopus can use an action to camouflage itself 
+                     with its immediate environment, giving it advantage on any Stealth checks it 
+                     makes until it moves.<br>
+                    <b>Elastic Body.</b> A giant octopus can fit through any space it can fit its
+                     beak through.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Strangle.</b> Melee attack, up to 2 targets, 2/action, 3d8 +3 physical 
+                     damage; target must make a Fort./Ref. save against twice the amount of final
+                     damagedealt or be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the giant octopus.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Octopus, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 12 (6) <b>CON</b> 6 (3) <b>AGI</b> 4 (2) <b>DEX</b> 5 (2)
+                     <b>INT</b> 6 (3) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 6 <i>(Armor 6)</i>, <b>RaDEF</b> 7<br>
+                    <b>Health</b> 34 (4d10 +12)<br>
+                    <b>Saves</b> Fort. 5 (+6), Ref. 2 (+2), Will. 3 (+3)<br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Grappled</a>, <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Restrained</a><br>
+                    <b>Speed</b> Walking 25 feet, Swimming 35 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Perception 3 (+2), Sleight of Hand 1 (+2), Stealth 2 (+2)<br>
+                    <b>Senses</b> Infared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Coast, sea, swamp<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>8 Arms.</b> A dire octopus has 8 arms and can perform up to 4 tasks 
+                     simultaneously.<br>
+                    <b>Camouflage.</b> The giant octopus can use an action to camouflage itself 
+                     with its immediate environment, giving it advantage on any Stealth checks it 
+                     makes until it moves.<br>
+                    <b>Elastic Body.</b> A dire octopus can fit through any space it can fit its
+                     beak through.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Smack.</b> Melee attack, 1 target, 2/action, 3d8 +6 physical damage.<br>
+                    <b>Strangle.</b> Melee attack, up to 3 targets, 2/action, 4d10 +6 physical 
+                     damage; target must make a Fort./Ref. save against twice the amount of final
+                     damage dealt or be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the dire octopus.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Piranha Swarm</button>
+                <div class="statistics">
+                    <br>
+                    <i>Big or bigger</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 4 (2) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 2 (1)
+                     <b>INT</b> 0 (0) <b>WIS</b> 2 (1) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 4<br>
+                    <b>Health</b> 22 (3d8 +9)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Swimming 40 feet<br>
+                    <b>Skills</b> Perception 4 (+1), Tracking 3 (+1)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Sea, swamp<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Blood Acuity.</b> A piranha swarm has advantage on Perception checks to 
+                     detect bleeding creatures.
+                    <b>Bloodlust.</b> When a piranha swarm deals final damage with an attack or 
+                     tastes blood, it goes into a state of bloodlust, granting it resistance to 
+                     physical damage; it can also give itself advantage on attacks, but if it 
+                     grants itself advantage on <u>></u> 1 attacks, all attacks against it gain
+                     advantage as well.
+                    <b>Consume.</b> If a piranha swarm reduces a creature to 0 Health, it spends
+                     its next 2 actions consuming that creature’s flesh.
+                    <b>Swarm.</b> A piranha swarm can occupy the same space as a creature; if it
+                    does, it has advantage on each of its attacks against that creature.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 3/action, 3d6 +2 physical damage.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Piranha</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 1 (0) <b>CON</b> 3 (1) <b>AGI</b> 5 (2) <b>DEX</b> 1 (0)
+                     <b>INT</b> 0 (0) <b>WIS</b> 2 (1) <b>CHA</b> 3 (1)<br>
+                    <b>DEF</b> 4 <i>(Armor 2, Dodge 2)</i>, <b>RaDEF</b> 10<br>
+                    <b>Health</b> 3 (1d2 +1)<br>
+                    <b>Saves</b> Fort. 1 (+1), Ref. 1 (+2), Will. 1 (+1)<br>
+                    <b>Speed</b> Swimming 20 feet<br>
+                    <b>Skills</b> Perception 2 (+1), Stealth 2, Tracking 2 (+1)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Sea, swamp<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Blood Acuity.</b> A piranha has advantage on Perception checks to detect
+                     bleeding creatures.
+                    <b>Bloodlust.</b> When a piranha deals final damage with an attack or 
+                     tastes blood, it goes into a state of bloodlust, granting it resistance to 
+                     physical damage; it can also give itself advantage on attacks, but if it 
+                     grants itself advantage on <u>></u> 1 attacks, all attacks against it gain
+                     advantage as well.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d4 physical damage; if a 
+                     creature is reduced to 0 Health by this attack, the piranha will continue to
+                     eat them until it takes damage from another source.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Shark</button>
+                <div class="statistics">
+                    <br>
+                    <i>Medium/Big</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 6 (3) <b>CON</b> 4 (2) <b>AGI</b> 4 (2) <b>DEX</b> 0 (0)
+                     <b>INT</b> 1 (0) <b>WIS</b> 3 (1) <b>CHA</b> 4  (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 5/4<br>
+                    <b>Health</b> 16/19 (3d6/3d8 +6)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 1 (+2), Will. 2 (+2)<br>
+                    <b>Speed</b> Swimming 30/35 feet<br>
+                    <b>Skills</b> Intimidation 2 (+2), Navigation 1 (+1), Perception 2 (+1),
+                     Stealth 2, Tracking 2 (+1)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Blood Acuity.</b> A shark has advantage on Perception checks to detect
+                     bleeding creatures.
+                    <b>Bloodlust.</b> When a shark deals final damage with an attack or 
+                     tastes blood, it goes into a state of bloodlust, granting it resistance to 
+                     physical damage; it can also give itself advantage on attacks, but if it 
+                     grants itself advantage on <u>></u> 1 attacks, all attacks against it gain
+                     advantage as well.<br>
+                    <b>Just Keep Swimming.</b> If the shark stops swimming at any point, it dies;
+                     for this reason, it must take the Move action at least once on each of its
+                     turns.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d6 +3 physical damage.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Shark, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 9 (4) <b>CON</b> 6 (3) <b>AGI</b> 4 (2) <b>DEX</b> 0 (0)
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 5 (2)<br>
+                    <b>DEF</b> 4 <i>(Armor 4)</i>, <b>RaDEF</b> 5<br>
+                    <b>Health</b> 42 (5d10 +15)<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 1 (+2), Will. 2 (+2)<br>
+                    <b>Speed</b> Swimming 40 feet<br>
+                    <b>Skills</b> Intimidation 3 (+2), Navigation 1 (+2), Perception 3 (+2), 
+                     Stealth 2, Tracking 3 (+2)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Blood Acuity.</b> A Giant Shark has advantage on Perception checks to detect
+                     bleeding creatures.
+                    <b>Bloodlust.</b> When a Giant Shark deals final damage with an attack or 
+                     tastes blood, it goes into a state of bloodlust, granting it resistance to 
+                     physical damage; it can also give itself advantage on attacks, but if it 
+                     grants itself advantage on <u>></u> 1 attacks, all attacks against it gain
+                     advantage as well.<br>
+                    <b>Just Keep Swimming.</b> If the Giant Shark stops swimming at any point, it
+                     dies; for this reason, it must take the Move action at least once on each of
+                     its turns.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 4d8 +4 physical damage; target
+                     must make a Fort. save against twice the final damage dealt or be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the Giant Shark.<br>
+                    <b>Swallow.</b> Melee attack, up to 1 Big target, 1/action; the target must
+                     make a Fort./Ref. save against the Giant Shark’s STR check or become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">blinded</a>
+                     and <a href="../Rulebook/Part6/Chapter14.html" target="_blank">restrained</a>
+                     as the Giant Shark swallows them. At the start of each of their turns
+                     thereafter, they take 2d8 caustic damage as the Giant Shark begins to digest
+                     them. If the Giant Shark takes <u>></u> 11 damage in a single turn, it
+                     immediately vomits all swallowed creatures back up. If the Giant Shark dies,
+                     any swallowed creatures can use 2 actions on their turn to crawl out of it,
+                     exiting <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Shark, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Massive</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 14 (7) <b>CON</b> 8 (4) <b>AGI</b> 3 (1) <b>DEX</b> 0 (0)
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 7 <i>(Armor 7)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 101 (7d20 +28)<br>
+                    <b>Saves</b> Fort. 6 (+7), Ref. 1 (+1), Will. 3 (+3)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Frightened</a><br>
+                    <b>Speed</b> Swimming 45 feet<br>
+                    <b>Skills</b> Intimidation 5 (+3), Navigation 1 (+2), Perception 2 (+2), 
+                     Stealth 1, Tracking 4 (+2)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 2<br>
+                    <b>Locations</b> Sea<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Blood Acuity.</b> A Dire Shark has advantage on Perception checks to detect
+                     bleeding creatures.
+                    <b>Bloodlust.</b> When a Dire Shark deals final damage with an attack or 
+                     tastes blood, it goes into a state of bloodlust, granting it resistance to 
+                     physical damage; it can also give itself advantage on attacks, but if it 
+                     grants itself advantage on <u>></u> 1 attacks, all attacks against it gain
+                     advantage as well.<br>
+                    <b>Just Keep Swimming.</b> If the Dire Shark stops swimming at any point, it
+                     dies; for this reason, it must take the Move action at least once on each of
+                     its turns.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, up to 3 targets, 1/action, 6d10 +7 physical damage;
+                     target must make a Fort. save against twice the final damage dealt or be 
+                     <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a> by 
+                     the Dire Shark.<br>
+                    <b>Swallow.</b> Melee attack, up to 1 Huge target, 1/action; the target must
+                     make a Fort./Ref. save against the Dire Shark’s STR check or become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">blinded</a>
+                     and <a href="../Rulebook/Part6/Chapter14.html" target="_blank">restrained</a>
+                     as the Dire Shark swallows them. At the start of each of their turns
+                     thereafter, they take 3d8 caustic damage as the Dire Shark begins to digest
+                     them. If the Dire Shark takes <u>></u> 34 damage in a single turn, it
+                     immediately vomits all swallowed creatures back up. If the Dire Shark dies,
+                     any swallowed creatures can use 2 actions on their turn to crawl out of it,
+                     exiting <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Snake</button>
+                <div class="statistics">
+                    <br>
+                    <i>Tiny</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 1 (0) <b>CON</b> 4 (2) <b>AGI</b> 4 (2) <b>DEX</b> 6 (3)
+                     <b>INT</b> 1 (0) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 6 <i>(Armor 1, Dodge 5)</i>, <b>RaDEF</b> 12<br>
+                    <b>Health</b> 3 (1d2 +2)<br>
+                    <b>Saves</b> Fort. 1 (+1), Ref. 3 (+3), Will. 2 (+2)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Prone</a><br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Sickened</a><br>
+                    <b>Speed</b> Crawling 15 feet<br>
+                    <b>Skills</b> Climb 2, Intimidation 2 (+2), Perception 2 (+2), Stealth 3 (+3),
+                     Swim 2<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Desert, forest, mountains, plains, ruins, swamp, underground<br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 2/action, 1d4 +3 physical damage, 1d4 +2
+                     poison damage; if the target takes any final poison damage they become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">sickened</a>
+                     for 1 minute.
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Snake, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 5 (2) <b>CON</b> 6 (3) <b>AGI</b> 4 (2) <b>DEX</b> 4 (2)
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 4 <i>(Armor 2, Dodge 2)</i>, <b>RaDEF</b> 6<br>
+                    <b>Health</b> 11 (2d4 +6)<br>
+                    <b>Damage Resistances</b> Poison<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+2), Will. 2 (+2)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Prone</a><br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Sickened</a><br>
+                    <b>Speed</b> Crawling 25 feet<br>
+                    <b>Skills</b> Climb 2 (+2), Intimidation 3 (+2), Perception 2 (+2), 
+                     Stealth 3 (+2), Swim 1 (+2)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 0<br>
+                    <b>Locations</b> Desert, forest, mountains, plains, ruins, swamp, underground<br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 3d4 +2 physical damage, 2d6 +3
+                     poison damage; if the target takes any final poison damage they become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">sickened</a>
+                     for 1 hour.<br>
+                    <b>Constrict.</b> Melee attack, 1 target, 1/action 2d6 +2 physical damage; if
+                     this attack deals final damage, the target is <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the Giant Snake.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Snake, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 7 (3) <b>CON</b> 8 (4) <b>AGI</b> 4 (2) <b>DEX</b> 3 (1)
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 5 <i>(Armor 5)</i>, <b>RaDEF</b> 6<br>
+                    <b>Health</b> 38 (4d10 +16)<br>
+                    <b>Damage Immunities</b> Poison<br>
+                    <b>Saves</b> Fort. 4 (+4), Ref. 2 (+2), Will. 3 (+3)<br>
+                    <b>Condition Immunities</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Prone</a><br>
+                    <b>Condition Resistances</b> <a href="../Rulebook/Part6/Chapter14.html" target="_blank">Sickened</a><br>
+                    <b>Speed</b> Crawling 35 feet<br>
+                    <b>Skills</b> Climb 3 (+3), Intimidation 4 (+3), Perception 2 (+2), 
+                     Stealth 2 (+1)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Desert, forest, mountains, plains, ruins, swamp, underground<br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 4d6 +3 physical damage, 2d8 +4
+                     poison damage; if the target takes any final poison damage they become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">sickened</a>
+                     for 1 hour.<br>
+                    <b>Constrict.</b> Melee attack, 1 target, 1/action 3d8 +3 physical damage; 
+                     if this attack deals final damage, the target is <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the Dire Snake.<br>
+                    <b>Swallow.</b> Melee attack, up to 1 Small target, 1/action; the target must
+                     make a Fort./Ref. save against the Dire Snake’s STR check or become <a href="../Rulebook/Part6/Chapter14.html" target="_blank">restrained</a>
+                     as it swallows them. At the start of each of their turns thereafter, they 
+                     take 2d6 caustic damage as the Dire Snake begins to digest them. If the Dire
+                     Snake takes <u>></u> 14 damage in a single turn, it immediately vomits all 
+                     swallowed creatures back up. If the Dire Snake dies, any swallowed creatures
+                     can use 2 actions on their turn to crawl out of it, exiting <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Monster hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Spider, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Small</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 4 (2) <b>CON</b> 4 (2) <b>AGI</b> 7 (3) <b>DEX</b> 3 (1)
+                     <b>INT</b> 1 (0) <b>WIS</b> 2 (1) <b>CHA</b> 3 (1)<br>
+                    <b>DEF</b> 4 <i>(Armor 2, Dodge 2)</i>, <b>RaDEF</b> 8<br>
+                    <b>Health</b> 9 (2d4 +4)<br>
+                    <b>Saves</b> Fort. 2 (+2), Ref. 2 (+3), Will. 1 (+1)<br>
+                    <b>Speed</b> Walking 40 feet<br>
+                    <b>Skills</b> Intimidation 2 (+1), Nature 2, Perception 3 (+1), 
+                     Stealth 3 (+1)<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Desert, forest, mountains, ruins, swamp, underground<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Spider Climb.</b> A Giant Spider can climb difficult surfaces, including
+                     upside-down, without issue.<br>
+                    <b>Web Sense.</b> While in contact with a web, a Giant Spider knows the 
+                     exact location of any other creature in contact with the same web.<br>
+                    <b>Web Walker.</b> A Giant Spider ignores movement restrictions caused by 
+                     webbing.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d6 +2 physical damage, 1d8 +2 
+                     poison damage.<br>
+                    <b>Sting.</b> Melee attack, 1 target, 1/action, 2d6 +2 physical damage; 
+                     target must succeed on a Fort. save against twice the final damage dealt or
+                     be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">paralyzed</a>
+                     for the next minute.<br>
+                    <b>Web.</b> A Giant Spider can unspool silk from its spinnerets at a rate of
+                     5 feet/action, creating a web over the course of anywhere from a few 
+                     minutes to a few hours.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Spider, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 7 (3) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 1 (0)
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 4 <i>(Armor 4)</i>, <b>RaDEF</b> 5<br>
+                    <b>Health</b> 34 (4d10 +12)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 55 feet<br>
+                    <b>Skills</b> Intimidation 4 (+2), Nature 2 (+1), Perception 4 (+2), 
+                     Stealth 1<br>
+                    <b>Senses</b> Infrared vision<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Desert, forest, mountains, ruins, swamp, underground<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Spider Climb.</b> A Dire Spider can climb difficult surfaces, including
+                     upside-down, without issue.<br>
+                    <b>Web Sense.</b> While in contact with a web, a Dire Spider knows the 
+                     exact location of any other creature in contact with the same web.<br>
+                    <b>Web Walker.</b> A Dire Spider ignores movement restrictions caused by 
+                     webbing.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 4d6 +3 physical damage, 2d8 +3 
+                     poison damage.<br>
+                    <b>Sting.</b> Melee attack, 1 target, 1/action, 4d6 +3 physical damage; 
+                     target must succeed on a Fort. save against twice the final damage dealt or
+                     be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">paralyzed</a>
+                     for the next minute.<br>
+                    <b>Web.</b> A Dire Spider can unspool silk from its spinnerets at a rate of
+                     5 feet/action, creating a web over the course of anywhere from a few 
+                     minutes to a few hours.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Warhorse</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 10 (5) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 0 (0)
+                     <b>INT</b> 2 (1) <b>WIS</b> 4 (2) <b>CHA</b> 4 (2)<br>
+                    <b>DEF</b> 2 <i>(Armor 2)</i>, <b>RaDEF</b> 3<br>
+                    <b>Health</b> 25 (3d10 +9)<br>
+                    <b>Saves</b> Fort. 4 (+5), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> 55 feet<br>
+                    <b>Skills</b> Insight 1 (+2), Intimidation 3 (+2), Perception 2 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Urbanity<br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Kick.</b> Melee attack, 1 target, 1/action, 3d8 +5 damage. A target who 
+                     takes final damage from this attack must succeed on a Fort. save against 
+                     twice the final damage dealt or be knocked <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Wolf</button>
+                <div class="statistics">
+                    <br>
+                    <i>Medium</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 4 (2) <b>CON</b> 4 (2) <b>AGI</b> 6 (3) <b>DEX</b> 2 (1)
+                     <b>INT</b> 2 (1) <b>WIS</b> 3 (1) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 3 <i>(Armor 2, Dodge 1)</i>, <b>RaDEF</b> 6<br>
+                    <b>Health</b> 16 (3d6 +6)<br>
+                    <b>Saves</b> Fort. 2 (+2), Ref. 2 (+3), Will. 2 (+2)<br>
+                    <b>Speed</b> Walking 45 feet<br>
+                    <b>Skills</b> Insight 2 (+1), Intimidation 2 (+3), Perception 3 (+1),
+                     Stealth 2 (+1), Swim 2 (+2), Tracking 4 (+1)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest, mountains, plains, ruins, tundra<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Keen Hearing and Smell.</b> The wolf has advantage on Perception checks 
+                     that rely on hearing and smelling.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d6 +2 physical damage.<br>
+                    <b>Tackle.</b> Melee attack, 1 target, 1/action, target must make a 
+                     Fort./Ref. save against the wolf’s STR check or be knocked <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a>
+                     and be <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the wolf; if the wolf wins the contest, it can take the <b>Bite</b>
+                     action as part of this action.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster">Wolf, Giant</button>
+                <div class="statistics">
+                    <br>
+                    <i>Large</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 7 (3) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 1 (0)
+                     <b>INT</b> 3 (1) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 4 <i>(Armor 4)</i>, <b>RaDEF</b> 5<br>
+                    <b>Health</b> 34 (4d10 +12)<br>
+                    <b>Saves</b> Fort. 3 (+3), Ref. 2 (+3), Will. 3 (+3)<br>
+                    <b>Speed</b> Walking 55 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Intimidation 3 (+3), Perception 4 (+2),
+                     Stealth 1, Swim 2 (+3), Tracking 4 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest, mountains, plains, ruins, tundra<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Keen Hearing and Smell.</b> The Giant Wolf has advantage on Perception 
+                     checks that rely on hearing and smelling.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 2d8 +3 physical damage.<br>
+                    <b>Tackle.</b> Melee attack, 1 target, 1/action, target must make a 
+                     Fort./Ref. save against the Giant Wolf’s STR check or be knocked 
+                     <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a> and be
+                     <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the Giant Wolf; if the Giant Wolf wins the contest, it can take the 
+                     <b>Bite</b> action as part of this action.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster">Wolf, Dire</button>
+                <div class="statistics">
+                    <br>
+                    <i>Huge</i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b> 11 (5) <b>CON</b> 6 (3) <b>AGI</b> 6 (3) <b>DEX</b> 0 (0)
+                     <b>INT</b> 4 (2) <b>WIS</b> 4 (2) <b>CHA</b> 6 (3)<br>
+                    <b>DEF</b> 4 <i>(Armor 4)</i>, <b>RaDEF</b> 5<br>
+                    <b>Health</b> 57 (6d12 +18)<br>
+                    <b>Saves</b> Fort. 4 (+5), Ref. 2 (+3), Will. 3 (+3)<br>
+                    <b>Speed</b> Walking 60 feet<br>
+                    <b>Skills</b> Insight 2 (+2), Intimidation 4 (+3), Perception 4 (+2),
+                     Swim 1 (+5), Tracking 4 (+2)<br>
+                    <b>Difficulty</b> Tier 1<br>
+                    <b>Locations</b> Forest, mountains, plains, ruins, tundra<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <b>Keen Hearing and Smell.</b> The Dire Wolf has advantage on Perception 
+                     checks that rely on hearing and smelling.
+                    <hr>
+                    <b>Actions</b><br>
+                    <b>Bite.</b> Melee attack, 1 target, 1/action, 4d8 +5 physical damage.<br>
+                    <b>Tackle.</b> Melee attack, 1 target, 1/action, target must make a 
+                     Fort./Ref. save against the Dire Wolf’s STR check or be knocked 
+                     <a href="../Rulebook/Part6/Chapter14.html" target="_blank">prone</a> and be
+                     <a href="../Rulebook/Part6/Chapter14.html" target="_blank">grappled</a>
+                     by the Dire Wolf; if the Dire Wolf wins the contest, it can take the 
+                     <b>Bite</b> action as part of this action.
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b> Beast hide
+                </div>
+            </div>
+        </div>
+        
+        <center><h1 style="font-size:35px;">Dinosaurs</h1></center>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+            
+            <div class="rightcolumn">
+                <button type="button" class="Monster"></button>
+                <div class="statistics">
+                    <br>
+                    <i></i><br>
+                    <br>
+                    <b>Statistics</b><br>
+                    <b>STR</b>  () <b>CON</b>  () <b>AGI</b>  () <b>DEX</b>  () <b>INT</b>  () <b>WIS</b> () <b>CHA</b>  ()<br>
+                    <b>DEF</b> <i>(Armor , Dodge )</i>, <b>RaDEF</b> <br>
+                    <b>Health</b>  ()<br>
+                    <b>Damage Immunities</b><br>
+                    <b>Damage Resistances</b><br>
+                    <b>Damage Vulnerabilities</b><br>
+                    <b>Saves</b> Fort. (+), Ref. (+), Will. (+)<br>
+                    <b>Condition Immunities</b><br>
+                    <b>Condition Resistances</b><br>
+                    <b>Condition Vulnerabilities</b><br>
+                    <b>Speed</b> <br>
+                    <b>Skills</b> <br>
+                    <b>Senses</b> <br>
+                    <b>Languages</b> <br>
+                    <b>Difficulty</b> Tier <br>
+                    <b>Locations</b> Air, coast, desert, forest, mountains, plains, ruins, sea, swamp, tundra, underground, urbanity<br>
+                    <hr>
+                    <b>Passive Abilities</b><br>
+                    <hr>
+                    <b>Actions</b><br>
+                    <hr>
+                    <b>Treasure</b><br>
+                    <b>Armor Materials:</b>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("Monster");
+            var i;
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var stats = this.nextElementSibling;
+                    if (stats.style.maxHeight) {
+                        stats.style.maxHeight = null;
+                    } else {
+                        stats.style.maxHeight = stats.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        
+    </body>
+    
+</html>

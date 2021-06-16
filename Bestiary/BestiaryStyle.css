@@ -1,0 +1,189 @@
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+b {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    font-family: Times New Roman, serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: left;
+    text-indent: 45px;
+    line-height: 2px;
+}
+
+h3 {
+    color: rgb(175, 175, 175);
+}
+
+p {
+    text-indent: 45px;
+    text-align: inherit;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+/*Button Stuff*/
+.BestiaryMenu {
+    width: 40%;
+}
+
+.BestiaryMenu a {
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    margin: 12px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.BestiaryMenu a:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.HomeButton {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.Monster {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: inherit;
+    padding: 10px;
+}
+
+.statistics {
+    background-color: rgb(50, 50, 50);
+    line-height: 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.MonsterList {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.MonsterList-content {
+    background-color: rgb(50, 50, 50);
+    line-height: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+
+/*Grid Stuff*/
+.farleftcolumn {
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 1.65%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+.centerleftcolumn {
+    float: left;
+    width: 20%;
+    margin-left: 1.65%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+.centerrightcolumn {
+    float: right;
+    width: 20%;
+    margin-right: 1.65%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+.farrightcolumn {
+    float: right;
+    width: 20%;
+    margin-left: 1.65%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+.leftcolumn {
+    float: left;
+    width: 30%;
+    margin-left: 17.5%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: right;
+}
+
+.rightcolumn {
+    float: right;
+    width: 30%;
+    margin-right: 17.5%;
+    margin-bottom: 25px;
+    background-color: rgb(50, 50, 50);
+    text-align: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
