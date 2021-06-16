@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+      
+        <title>Chapter 3: Concoctions and Enchants</title>
+        
+        <link rel="stylesheet" href="../RulesStyle.css">
+        <script src="../RulesFunc.js"></script>
+    </head>
+    
+    <body>
+        <!--Site Nav-->
+        <!--Sidebar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times; &nbsp; Part 7: Aether</a>
+            <a href="./Chapter1.html">Chapter 1: Aether</a>
+            <a href="./Chapter2.html">Chapter 2: Alchemy</a>
+            <a href="./Chapter3.html" class="active">Chapter 3: Concoctions and Enchants</a>
+            <a href="./Chapter4.html">Chapter 4: Relics</a>
+            <a href="./Chapter5.html">Chapter 5: The Planes</a>
+        </div>
+        
+        <!--Top navigation-->
+        <div class="topnav">
+
+            <!--Left-aligned links-->
+            <div class="topnavleft">
+                <a href="../../index.html">
+                    <img src="../../Artwork/Logo/Iron-Aether_transparent.png"
+                     width="100px" height="58px"
+                     alt="Iron & Aether">
+                </a>
+            </div>
+            
+            <!--Centered links-->
+            <div class="topnavcenterleft">
+                <a href="./Chapter2.html">&larr; Prev</a>
+            </div>
+            <div class="topnavcenter">
+                <a href="../Home/RulesHome.html">Table of Contents</a>
+            </div>
+            <div class="topnavcenterright">
+                <a href="./Chapter4.html">Next &rarr;</a>
+            </div>
+            
+            <!--Right-aligned links-->
+            <div class="topnavdiscord">
+                <!--Discord button-->
+                <a href="https://discord.gg/n2kXGZJ" target="_blank">Discord</a>
+            </div>
+            <!--Right-aligned links-->
+            <div class="topnavright">
+                <!--Sidebar, does not push-->
+                <span onclick="openSide()">Part 7: Aether &ensp; &#9776;</span>
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="rules">
+        
+            <center><h1>Chapter 3: Concoctions and Enchants</h1></center>
+            <h2>Concoctions</h2>
+            <p>Given here are all of the concoctions within I&A, along with the type
+             of Aether required to brew it and the typical cost to buy it; however, it is up to your
+             GM to decide how many vials of a given solution a seller has, if any, and whether or not
+             it can be bought anywhere else. Unless a concoction’s description says otherwise, it 
+             must be drunk or injected in its entirety for its effects to be felt. A single person
+             can be under the influence of  up to 3 concoctions at once, including concoctions
+             with instantaneous durations; if a 4th one is imbibed, the drinker is 
+             <a href="../Part6/Chapter3.html">sickened</a> for the next minute, at the end of 
+             which they immediately spend 2 actions throwing up and take 1d6 true damage. If a
+             concoction requires two or more types of Aether, it needs at least 1 pound of each
+             type to be brewed. To identify a concoction and its effects requires a successful
+             DR 16 Alchemy Supplies or Arcana check, though the GM may wish to modify this DR
+             based on the strength and nature of the brew.</p>
+            <p>To determine the cost of a concoction, use the following steps as a guide
+             (if an NPC is selling the concoction, use the prices given):</p>
+            <ol>
+                <li>Double the cost of the Aether used to brew it;</li>
+                <li>Double the cost of the other resources, or double the number of days to gather resources;</li>
+                <li>Round that up to the nearest multiple of 10.</li>
+            </ol>
+            <p>This should present a fair price for the concoction, though there may be 
+             other factors that modify the price of the brew at the seller’s discussion.</p>
+            
+            <h2>Elixirs</h2>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Breathing</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air.<br>
+                        <b>Description.</b> A breathing elixir allows one to continue to safely draw breath
+                         in situations wherein they otherwise wouldn’t, such as underwater, in an oxygen-less
+                         environment, or in deadly gases, including gaseous Aether.<br>
+                        <b>Duration.</b> <i>Weak</i>, 10 minutes; <i>moderate</i>, 1 hour; <i>strong</i>, 6 hours; <i>exalted</i>, 24 hours.<br>
+                        <b>Price.</b> <i>Weak</i>, 20A; <i>moderate</i>, 50A; <i>strong</i>, 100A; <i>exalted</i>, 200A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Fatigue Relief</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life or Water, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This elixir does not actively heal the consumer, but allows them
+                         to feel as if they have not taken damage or been fatigued for a time. If consumed 
+                         while suffering from Health loss penalties, the drinker does not suffer from those
+                         penalties for the duration. In addition, they become immune to fatigue damage for the
+                         duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 30 minutes; <i>exalted</i>, 1 hour.<br>
+                        <b>Price.</b> <i>Weak</i>, 10A; <i>moderate</i>, 50A (Water) or 100A (Life); <i>strong</i>, 100A (Water) or 250A (Life); <i>exalted</i>, 200A (Water) or 500A (Life).
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Flight</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air or Gravity.<br>
+                        <b>Description.</b> An Elixir of Flight simply allows the user to fly at varying 
+                         speeds for varying lengths of time, both depending on the strength of the drink. The
+                         flying speeds per strength level are given here: <i>weak</i>, 20 feet; <i>moderate</i>, 30 feet; <i>strong</i>, 45 feet; <i>exalted</i>, 60 feet.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 1 hour; <i>exalted</i>, 6 hours.<br>
+                        <b>Price.</b> <i>Weak</i>, 20A (Air) or 50A (Gravity); <i>moderate</i>, 50A (Air) or 125A (Gravity); <i>strong</i>, 100A (Air) or 300A (Gravity); <i>exalted</i>, 200A (Air) or 500A (Gravity).
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Fortune</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, all strengths; Light, <i>exalted</i>.<br>
+                        <b>Description.</b> An Elixir of Fortune, as the name would imply, bestows good luck
+                        upon the consumer. For the duration, you have advantage on all checks, attacks, and
+                        saves. In addition, your DEF score is increased in proportion to the strength of
+                        the elixir: <i>weak</i>, +1; <i>moderate</i>, +3; <i>strong</i>, +6; <i>exalted</i>, +10.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 30 minutes; <i>exalted</i>, 1 hour.<br>
+                        <b>Price.</b> <i>Weak</i>, 50A; <i>moderate</i>, 125A; <i>strong</i>, 300A; <i>exalted</i>, 750A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Lies</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, all strengths; Dark, <i>exalted</i>.<br>
+                        <b>Description.</b> This drink, a favorite of liars, swindlers, and charlatans the
+                         world over, aids the consumer in all their dishonest efforts by granting them 
+                         advantage on their Beguilement checks for the duration.<br>
+                        Taking this while under the effects of an Elixir of Truth of lesser strength will cancel
+                         out the Elixir of Truth’s effects; if the Elixir of Truth is stronger, this serum has
+                         no effect; if they are of equal strength, they cancel each other out.<br>
+                        <b>Duration.</b> <i>Weak</i>, 30 minutes; <i>moderate</i>, 1 hour; <i>strong</i>, 6 hours; <i>exalted</i>, 24 hours.<br>
+                        <b>Price.</b><i>Weak</i>, 50A; <i>moderate</i>, 125A; <i>strong</i>, 300A; <i>exalted</i>, 750A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Liquid Fire</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Fire.<br>
+                        <b>Description.</b> Liquid fire is a reddish-orange liquid that, when exposed to air,
+                         ignites in a flame that is much more difficult to extinguish than ordinary fire; 
+                         though water will do the trick, the subject must be completely engulfed, and other
+                         methods of putting the inferno out are far less effective than normal. A creature 
+                         that has been ignited by <i>weak</i> Liquid Fire takes 1d6 burn damage when ignited, then
+                         1d8 burn final damage at the start of each of their turns until the flame is 
+                         extinguished. This damage increases the stronger the brew is by 1d6/1d8 per level of
+                         strength, e.g. a <i>strong</i> Elixir of Liquid Fire deals 3d6 damage when ignited and 3d8
+                         final damage at the start of each of the burning creature’s turns thereafter.<br>
+                        <b>Duration.</b> Until doused.<br>
+                        <b>Price.</b><i>Weak</i>, 25A; <i>moderate</i>, 50A; <i>strong</i>, 125A; <i>exalted</i>, 250A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Misfortune</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, all strengths; Dark, <i>exalted</i>.<br>
+                        <b>Description.</b> As opposed to the Elixir of Fortune, the Elixir of
+                         Misfortune curses the consumer with poor luck, cursing them with 
+                         disadvantage on all checks, attacks, and saves. In addition, the
+                         consumer’s DEF score is decreased in proportion to the strength of the
+                         elixir: <i>weak</i>, -1; <i>moderate</i>, -3; <i>strong</i>, -6;
+                         <i>exalted</i>, -10.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 30 minutes; <i>exalted</i>, 1 hour.<br>
+                        <b>Price.</b> <i>Weak</i>, 50A; <i>moderate</i>, 125A; <i>strong</i>, 300A; <i>exalted</i>, 750A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Strength</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth.<br>
+                        <b>Description.</b> This brew increases the imbiber’s STR score, up to 12, in direct
+                         relation to the power of the elixir for the duration: <i>weak</i>, +1; <i>moderate</i>, +2; <i>strong</i>, +3; <i>exalted</i>, +4.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 30 minutes; <i>exalted</i>, 1 hour.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 30A; <i>strong</i>, 60A; <i>exalted</i>, 100A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Sanity</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Light.<br>
+                        <b>Description.</b> This concoction relieves the symptoms of one form of <a href="../Part6/Chapter16.html">madness</a>,
+                         allowing the drinker to not suffer from it for the duration. If the consumer suffers
+                         from more than one form of <a href="../Part6/Chapter16.html">madness</a>,
+                         the GM decides which form of <a href="../Part6/Chapter16.html">madness</a>
+                         is suppressed. If the duration of the suppression is <u>></u> the duration of the 
+                         <a href="../Part6/Chapter16.html">madness</a>, then it is cured.<br>
+                        <b>Duration.</b> <i>Weak</i>, 4d12 hours; <i>moderate</i>, 5d6 days; <i>strong</i>, 1d12 months; <i>exalted</i>, permanent.<br>
+                        <b>Price.</b> <i>Weak</i>, 125A; <i>moderate</i>, 275A; <i>strong</i>, 650A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Elixir of Truth</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Light.<br>
+                        <b>Description.</b> This truth serum will force a person to speak only the truth for
+                         the duration, which varies according to the brew’s strength. There are ways around 
+                         this, such as lying by omission, giving the bare minimum amount of information, 
+                         simply not speaking, etc. Essentially, a clever mind can find ways to circumvent this 
+                         serum’s effects through technicalities and loopholes.<br>
+                        Taking this while under the effects of an Elixir of Lies of lesser
+                         strength will cancel out the Elixir of Lies’ effects; if the Elixir of Lies is 
+                         stronger, this serum has no effect; if they are of equal strength, they cancel each
+                         other out.<br>
+                        <b>Duration.</b> <i>Weak</i>, 30 minutes; <i>moderate</i>, 1 hour; <i>strong</i>, 6 hours; <i>exalted</i>, 24 hours.<br>
+                        <b>Price.</b> <i>Weak</i>, 125A; <i>moderate</i>, 275A; <i>strong</i>, 650A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Ethers</h2>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Ether of Mana Repletion</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> <i>Weak</i>, none; <i>moderate</i>, any Corporeal; <i>strong</i>, any Ethereal; <i>exalted</i>, any Quintessential.<br>
+                        <b>Description.</b> This ether instantly restores varying amounts of Mana depending on 
+                         the ether’s strength: <i>weak</i>, 2d6; <i>moderate</i>, 2d10; <i>strong</i>, 2d20; <i>exalted</i>, 40.<br>
+                        If the imbiber is an <a href="../Part4/Aetherian.html">Aetherian</a>
+                         of the type of Aether used to brew the ether, they have advantage on the roll to see
+                         how much Mana they regain, unless the brew is <i>exalted</i>, in which case
+                         they also gain 10 temporary Mana.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 10A; <i>moderate</i>, 50A; <i>strong</i>, 350A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Ether of Temporary Mana</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> <i>Weak</i>, none; <i>moderate</i>, any Corporeal; <i>strong</i>, any Ethereal; <i>exalted</i>, any Quintessential.<br>
+                        <b>Description.</b> This ether grants a pool of temporary Mana that the consumer 
+                         draws from before drawing from their own Mana pool that lasts 24 hours and cannot be 
+                         restored. The amount of temporary Mana varies based on the brew’s strength: <i>weak</i>,
+                         1d6; <i>moderate</i>, 1d12; <i>strong</i>, 2d12; <i>exalted</i>, 2d20.<br>
+                        If the imbiber is an <a href="../Part4/Aetherian.html">Aetherian</a>
+                         of the type of Aether used to brew the ether, they have advantage on the roll to see
+                         how much temporary Mana they gain.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 10A; <i>moderate</i>, 50A; <i>strong</i>, 350A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Poisons</h2>
+            <p>Poisons are special in that they are the only concoctions explicitly meant to 
+             harm the consumer in one way or another. To combat these effects, the victim must
+             make a <a href="../Part1/Chapter6.html">Fortitude</a> save, the DR for which varies
+             depending on the brew’s strength. For simplicity’s sake, the Fortitude Save DR for
+             each strength of poison is given here: <i>Weak</i>: 10; <i>moderate</i>: 20; 
+             <i>strong</i>: 30; <i>exalted</i>: 42. The described effects assume the imbiber 
+             failed the save; if they succeeded, the poison has no effect, unless they deal
+             poison damage, wherein like in all other instances, this damage is reduced by the
+             result of the victim's <a href="../Part1/Chapter6.html">Fortitude</a> save.</p>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Berserker's Rage</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Fire, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the consumer to black out and be consumed with
+                         a blind fury for the duration, causing them to attack the nearest creature in melee 
+                         until one of them is dead or the poison wears off. If there are no creatures in sight,
+                         the victim sprints off in a random direction until they find someone to attack or the
+                         poison wears off. The strain this poison puts on the victim’s body means they take an
+                         amount of fatigue damage equal to the number of minutes they were under the poison’s 
+                         influence; this damage occurs the moment the poison wears off.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 minute; <i>moderate</i>, 10 minutes; <i>strong</i>, 1 hour; <i>exalted</i>, 12 hours.<br>
+                        <b>Price.</b><i>Weak</i>, 15A; <i>moderate</i>, 75A; <i>strong</i>, 200A; <i>exalted</i>, 400A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Blackeye</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Dark, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the victim to be <a href="../Part6/Chapter14.html">blinded</a>
+                         as their eyes become covered in an inky blackness for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 24 hours; <i>moderate</i>, 6 days; <i>strong</i>, 30 days; <i>exalted</i>, 360 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 300A; <i>strong</i>, 750A; <i>exalted</i>, 1500A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Bloody Ear</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Dark, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison, which causes blood to start pouring from the 
+                         victim’s ears, causes them to be <a href="../Part6/Chapter14.html">deafened</a>
+                         for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 24 hours; <i>moderate</i>, 6 days; <i>strong</i>, 30 days; <i>exalted</i>, 360 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 300A; <i>strong</i>, 750A; <i>exalted</i>, 1500A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Bug Bite</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the victim to become <a href="../Part6/Chapter14.html">sickened</a>
+                         for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 24 hours; <i>moderate</i>, 6 days; <i>strong</i>, 15 days; <i>exalted</i>, 30 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 100A; <i>strong</i>, 300A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Burning Blood</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Fire and Death, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the victim to feel as if their blood is on fire,
+                         granting disadvantage on all their checks, attacks, and saves, as well as dealing an 
+                         amount of poison damage depending on the strength of the poison: <i>weak</i>, 1d6; 
+                         <i>moderate</i>, 2d8; <i>strong</i>, 3d10; <i>exalted</i>, 4d12.<br>
+                        <b>Duration.</b> <i>Weak</i>, 10 minutes; <i>moderate</i>, 1 hour; <i>strong</i>, 6 hours; <i>exalted</i>, 24 hours.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 100A; <i>strong</i>, 300A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Death's Blood</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This straightforward poison deals varying amounts of poison damage 
+                         depending on the strength: <i>weak</i>, 2d6; <i>moderate</i>, 4d6; <i>strong</i>, 6d6; <i>exalted</i>, 8d8.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 150A; <i>strong</i>, 400A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Liquid Delirium</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death or Magic, <i>moderate</i> and stronger; Dark, <i>strong</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the consumer to temporarily lose their mind, 
+                         rendering them <a href="../Part6/Chapter14.html">sickened</a> and <a href="../Part6/Chapter14.html">incapacitated</a>
+                         for the duration, as well as unaware of anything that goes on around them.<br>
+                        <b>Duration.</b> <i>Weak</i>, 24 hours; <i>moderate</i>, 6 days; <i>strong</i>, 15 days; <i>exalted</i>, 30 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 300A; <i>strong</i>, 750A; <i>exalted</i>, 1500A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Lockjaw</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death or Gravity, <i>moderate</i> and stronger; Dark or Space, <i>strong</i> and stronger.<br>
+                        <b>Description.</b> Lockjaw poison causes the consumer’s jaw to lock into place in 
+                         one way or another, rendering them unable to speak, eat, or drink for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 1 hour; <i>moderate</i>, 6 hours; <i>strong</i>, 24 hours; <i>exalted</i>, 6 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 150A; <i>strong</i>, 600A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Madman's Ramblings</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Dark, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This poison cannot be cured by a Potion of Antitoxin, but by an
+                         Elixir of Sanity. When imbibed, the victim suffers from one form of <a href="../Part6/Chapter16.html">madness</a>
+                         for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 4d12 hours; <i>moderate</i>, 5d6 days; <i>strong</i>, 1d12 months; <i>exalted</i>, permanent.<br>
+                        <b>Price.</b><i>Weak</i>, 15A; <i>moderate</i>, 300A; <i>strong</i>, 750A; <i>exalted</i>, 1500A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Muscleache</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth, <i>moderate</i> and stronger; Death or Gravity, <i>strong</i> and stronger.<br>
+                        <b>Description.</b> This solution exhausts the consumer, causing them to take an 
+                         amount of fatigue damage in proportion to the strength of the brew: <i>weak</i>, 
+                         1d6; <i>moderate</i>, 2d8; <i>strong</i>, 6d6; <i>exalted</i>, 8d8.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 50A; <i>strong</i>, 200A; <i>exalted</i>, 450A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Passing of the Age</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death or Time, all strengths (including <i>weak</i> – 1-2 lbs. required).<br>
+                        <b>Description.</b> This surreal poison causes the victim to age a number of years 
+                        near-instantly, depending on the strength of the serum: <i>weak</i>, 1d10 years; 
+                        <i>moderate</i>, 2d10 years; <i>strong</i>, 3d10 years; <i>exalted</i>, 5d10.<br>
+                        <b>Duration.</b> A number of seconds equal to the number of years aged.<br>
+                        <b>Price.</b> <i>Weak</i>, 50A (Death) or 125A (Time); <i>moderate</i>, 150A (Death) or 300A (Time); 
+                         <i>strong</i>, 400A (Death) or 800A (Time); <i>exalted</i>, 600A (Death) or 1200A (Time).
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Playdead</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death, <i>moderate</i> and stronger; Dark, <i>strong</i> and stronger.<br>
+                        <b>Description.</b> Favored by deceivers the world over, this poison causes the 
+                         victim to give the outward appearance of death, slowing their heartrate to a near 
+                         stand-still, chilling their body, paralyzing them, and placing them into a coma. Only
+                         the poison wearing off or a Potion of Antitoxin will awaken them and restore them to
+                         normal.<br>
+                        <b>Duration.</b> <i>Weak</i>, 24 hours; <i>moderate</i>, 6 days; <i>strong</i>, 15 days; <i>exalted</i>, 30 days.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 150A; <i>strong</i>, 600A; <i>exalted</i>, 1000A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Spider Sting</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Death, <i>strong</i> and stronger.<br>
+                        <b>Description.</b> This poison causes the victim to become <a href="../Part6/Chapter14.html">paralyzed</a>
+                         for the duration.<br>
+                        <b>Duration.</b> <i>Weak</i>, 10 minutes; <i>moderate</i>, 1 hour; <i>strong</i>, 6 hours; <i>exalted</i>, 24 hours.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 150A; <i>strong</i>, 400A; <i>exalted</i>, 750A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">True Love's Kiss</button>
+                    <div class="gridtent">
+                        <b>Aether.</b>  Death, all strengths (including <i>weak</i> – 1-2 lbs. required); Dark or Time, <i>strong</i> or stronger.<br>
+                        <b>Description.</b> Similar to Playdead, except much stronger, this poison has much 
+                        the same effect, except that it lasts much longer and is meant to take someone out 
+                        without killing them for an extended period of time. If Time Aether is used in the
+                        brewing, the victim does not age while they are out.<br>
+                        <b>Duration.</b> <i>Weak</i>, 360 days; <i>moderate</i>, 5 years; <i>strong</i>, 25 years; <i>exalted</i>, 100 years.<br>
+                        <b>Price.</b> <i>Weak</i>, 50A; <i>moderate</i>, 150A; <i>strong</i>, 600A; <i>exalted</i>, 1250A.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Potions</h2>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Potion of Antitoxin</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> If already afflicted by a poison or venom, drinking this potion allows
+                         the user to make an additional <a href="../Part1/Chapter6.html">Fortitude</a>
+                         save against the affliction. An antitoxin of lesser strength will give a +1 
+                         (<i>weak</i>), +3 (<i>moderate</i>), or +5 (<i>strong</i>) bonus to the consumer’s 
+                         save; if the antitoxin is of equal strength, it gives advantage on the save; if the
+                         antitoxin is of greater strength, the affliction is cured entirely. If the consumer is not 
+                         presently afflicted, the given bonus applies to any toxin ingested 
+                         within the next 24 hours.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 75A; <i>strong</i>, 200A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Potion of Cure Disease</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life.<br>
+                        <b>Description.</b> This potion can only be brewed at the <i>strong</i> level. When 
+                         drunk, the imbiber is instantly cured of any disease afflicting them. For especially
+                         nasty diseases, such as cancer, it may take several imbibements before the disease 
+                         goes away for good.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Strong</i>, 200A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Potion of Healing</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> A Potion of Healing instantly restores varying amounts of Health
+                         depending on the strength of the potion, given here: <i>weak</i>, 2d6; <i>moderate</i>,
+                         4d8; <i>strong</i>, 6d8; <i>exalted</i>, 8d10. The <i>exalted</i> form of this potion 
+                         restores a singular lost appendage, such as a hand or an eye.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 75A; <i>strong</i>, 200A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Potion of Revival</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> This potion will bring the recently deceased back to the land of 
+                         the living at 1 Health, assuming their soul is willing and able. The <i>weak</i> version of 
+                         this potion will work on any who died within the last minute, the <i>moderate</i> version
+                         will work on any deceased within the last hour, the <i>strong</i> version will work on any 
+                         who died within the last day, and the <i>exalted</i> version will work on anyone who has 
+                         died within the last 6 days.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 75A; <i>strong</i>, 200A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Potion of Temporary Health</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life, <i>moderate</i> and stronger.<br>
+                        <b>Description.</b> A Temporary Health Potion gives the user a pool of temporary 
+                         Health that lasts 24 hours or until used up, and that cannot be restored. The amount
+                         of temporary Health given by this potion depends on its strength: <i>weak</i>, 2d6; <i>moderate</i>,
+                         4d8; <i>strong</i>, 6d8; <i>exalted</i>, 8d10.<br>
+                        <b>Duration.</b> Instantaneous.<br>
+                        <b>Price.</b> <i>Weak</i>, 15A; <i>moderate</i>, 75A; <i>strong</i>, 200A; <i>exalted</i>, 600A.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Enchants</h2>
+            <p>Enchants are powerful and usually very helpful items – unless the item in question
+             is cursed, though this is rarely the case (for a list of example curses, consult “Relic
+             Curses” <a href="./Chapter4.html">here</a>). An enchant’s description will say its effects, power level, the Aether 
+             used to make it, and how it changes as its power level increases, if it can.</p>
+            <p>All enchants must be attuned to in order for the user to gain their 
+             benefits and know their capabilities. To attune to an item, the user must spend a number
+             of hours equal to the enchant’s power level squared focusing on and bonding with the item
+             in question during a rest; the exception to this is artifacts, which take a full day's rest to 
+             become attuned to. A person can be attuned to up to 3 enchants at a time. 
+             Unattuning to an enchant takes only an hour, and only one person can be attuned to an 
+             enchant at a time.</p>
+            <p>Because the amount of possible enchanted items is practically infinite,
+             it would be impossible and impractical to attempt to list them all; instead, a few items
+             will be given at each power level for each category of enchant to give an idea of what 
+             each type of item at each power level is like.</p>
+            <p>Determining the cost of an enchant is far easier than deciding the cost 
+             of a concoction; because so much Aether is used to create them, simply doubling the cost
+             of the amount of Aether used to enchant the item provides a decent base to start with, 
+             and then the cost can be modified by the power level of the item at the seller’s 
+             discretion. Refer to the table below as a guide on modifying an enchant’s cost by power 
+             level.</p>
+            <center>
+            <b>Enchant Cost by Power Level</b>
+            <table>
+                <tr>
+                    <th><b>Power Level</b></th>
+                    <th><b>Cost Modification</b></th>
+                </tr>
+                <tr>
+                    <td><i>1st Level</i></td>
+                    <td>+ 1d4 x 10 Aeons</td>
+                </tr>
+                <tr>
+                    <td><i>2nd Level</i></td>
+                    <td>+ 2d6 x 12 Aeons</td>
+                </tr>
+                <tr>
+                    <td><i>3rd Level</i></td>
+                    <td>+ 3d8 x 15 Aeons</td>
+                </tr>
+                <tr>
+                    <td><i>4th Level</i></td>
+                    <td>+ 4d10 x 20 Aeons</td>
+                </tr>
+                <tr>
+                    <td><i>Artifact</i></td>
+                    <td>+ 5d20 x 25 Aeons</td>
+                </tr>
+            </table>
+            </center>
+            
+            <h2>Destroying an Enchant</h2>
+            <p>Enchants are harder to destroy than regular items, as befits their arcane nature.
+             To destroy an enchant, one has two options: the first, which will only work on enchants
+             of <i>1st</i> and <i>2nd level</i>, is to simply assail the item with overwhelming force and power, 
+             such as tossing it in an active volcano, smashing it repeatedly with a hammer or similar
+             implement, or assault it with a variety of powerful and destructive spells. The second is
+             to first disenchant the item, then destroy it as one would normally; the process for this
+             is covered in the <a href="./Chapter2.html">previous chapter</a>.</p>
+            
+            <h2>Arcane Items</h2>
+            
+            <br>
+            
+            <i><b>1st Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Familiar Figurine</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth, Water, Life, and Varies.<br>
+                        <b>Description.</b> This figurine, small enough to fit in the palm of a Sentient’s 
+                         hand, is in the shape of any creature of Small or smaller size that is not a 
+                         Sentient. Depending on the kind of creature, it may require an additional type of 
+                         Aether besides what is listed, e.g. a Fae would require Magic, a Scorched would 
+                         require Fire, etc. (all Beasts can be made with just the types of Aether given). At
+                         the user’s command and using an action, the figurine transforms into a full-size 
+                         living version of the creature for 1 minute, during which time it is exceptionally
+                         loyal to the user and obeys its commands to the best of its ability; its stats are
+                         equal to the creature’s normal stats. It can do this once every 24 hours, starting
+                         when it returns back to figurine form. The transformation can end early at the 
+                         user’s discretion or if the creature “dies”, though neither reduce the recharge time
+                         of the figurine. When the transformation ends, the figurine reappears in the user’s
+                         possession. The familiar retains all of its memories from every time it is used.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i>, the creature lasts for an hour. At <i>3rd
+                         level</i>, it lasts for one day. At <i>4th level</i>, it lasts for 6 days. As an 
+                         <i>artifact</i>, the creature remains for 30 days before its transformation ends.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Hero's Cloak</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air.<br>
+                        <b>Description.</b> This cloak billows dramatically at the user’s discretion while 
+                         they are wearing it.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i>, this cloak becomes a prehensile part of 
+                         the user’s body while it is worn. At <i>3rd level</i>, it gives them a flying speed
+                         of 30 feet. At <i>4th level</i>, they are able to control the cloak even when they 
+                         are not wearing it. As an <i>artifact</i>, it becomes a sapient being that is 
+                         entirely loyal to the user and can communicate via gestures.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Liar's Die</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic.<br>
+                        <b>Description.</b> This single die rolls a number of the user’s choice every time 
+                         it is rolled.<br>
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>2nd Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Bag of Holding</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic and Space.<br>
+                        <b>Description.</b> Taking the appearance of an otherwise ordinary small bag, this 
+                         satchel always weighs only 1 pound whenever holding up to 100 pounds of material. 
+                         After reaching the 100th pound, the sack gives the appearance of being full and 
+                         rejects any more items the user may try to place into it. To retrieve an item, a 
+                         creature must use an action to stick their hand in and think of the object they wish
+                         to pull out. If the item is in the bag, it appears in the grabber’s hand; otherwise,
+                         they know the item is not in the bag.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, the bag weighs 5 pounds and holds up to 
+                         500 pounds of material; at <i>4th level</i>, it weighs 10 pounds and holds up to 1000
+                         pounds of material.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Cloak of Agility</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air.<br>
+                        <b>Description.</b> This garment raises the user’s AGI score by .5, up to 6.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, the cloak raises the user’s AGI score by 
+                         1; at <i>4th level</i>, it raises it by 2; as an <i>artifact</i>, it raises their 
+                         AGI score by 3; none of these increases can increase a user’s AGI score beyond 6.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Hat of Disguise</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic.<br>
+                        <b>Description.</b> This strange hat can change its appearance using an action.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, it completely changes the user’s clothes;
+                         at <i>4th level</i>, this hat can also change the user’s physical appearance.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Lucky Charm</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Varies depending on the skill.<br>
+                        <b>Description.</b> Taking the form of any small, hand-held object of the creator’s 
+                         choice, this enchant increases the user’s proficiency in a single skill by 1, up to
+                         6. Which skill varies depending on the type of Aether used to enchant it; 
+                         discuss with your GM which type of Aether would be appropriate for the skill you 
+                         want to increase proficiency in. As an example, Earth Aether can be used to increase
+                         proficiency with either STR skill, but you could use Water Aether for the Swim 
+                         skill, or Air, Gravity, or Space for Climb.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, the stone increases proficiency in the 
+                         skill by 2, up to 6. At <i>4th level</i>, it increases proficiency by 3, up to 6. As
+                         an <i>artifact</i>, it increases proficiency by 4, up to 6.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Magician's Mantle</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, <i>2nd level</i> and stronger; Space, <i>3rd level</i> and stronger.<br>
+                        <b>Description.</b> This cloak can change any of its superficial characteristics 
+                         (color, length, shimmer, etc.) using an action.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, this cloak also functions as
+                         a <i>2nd level</i> Bag of Holding, allowing the user to store items
+                         inside it without changing its weight, causing them to appear as
+                         patches on the back of the cloak, which can easily be torn off by the
+                         user and reform into their normal shape and size using an action. At
+                         <i>4th level</i>, it functions as a <i>3rd level</i> Bag of Holding.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>3rd Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Homonculus</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth, Life, and Water.<br>
+                        <b>Description.</b> A homunculus is an artificially constructed being, not unlike an 
+                         <a href="../Part3/Automata.html">Automaton</a>, except that a 
+                         homunculus is a flesh-and-blood creature constructed of clay and mud instead of 
+                         metal and wires (though both do require Life Aether). Also like 
+                         <a href="../Part3/Automata.html">Automata</a>, Homunculi in the form
+                         of a Sentient will eventually Awaken, becoming sentient, thinking and feeling for 
+                         themselves, though this takes about 5d10 years; until then it essentially functions
+                         as a flesh golem with just enough intelligence and agency to carry out tasks given
+                         to it by its creator. The creature, whether Sentient-shaped or not, has the same 
+                         stats as its natural counterparts. Homunculi in the shape of small creatures are 
+                         often referred to as familiars, especially when under the ownership of an <a href="../Part4/Aetherian.html">Aetherian</a>. 
+                         If a Homunculus’ owner dies, it imprints on the next Sentient it sees.<br>
+                        A player-character can in fact be a Homunculus, though this will not 
+                         mechanically change anything, as only Homunculi in the form of a
+                         Sentient will Awaken.<br>
+                        <b>Higher Levels.</b> At <i>4th level</i>, the time it takes for a Homunculus to 
+                         awaken is reduced to 1d10 years. As an <i>artifact</i>, it becomes sentient immediately.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Mana Stone</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Any.<br>
+                        <b>Description.</b> While held by an attuned <a href="../Part4/Aetherian.html">Aetherian</a>,
+                         this small, palm-sized stone regenerates 1 Mana every half hour. If the attuned 
+                         <a href="../Part4/Aetherian.html">Aetherian</a> is of the same type
+                         that was used to create the stone, they regain 2 Mana every half hour.<br>
+                        <b>Higher Levels.</b> At <i>4th level</i>, this stone regenerates 2/4 Mana every half
+                         hour. As an <i>artifact</i>, it regenerates 4/8 Mana per half hour.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Portable Hole</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Space.<br>
+                        <b>Description.</b> What appears to be a circular piece of black felt cloth 3 inches
+                         in diameter is, in fact, much more. Using an action, the user can toss the cloth 
+                         onto a surface, such as a floor or wall, and create a circular hole 3 feet in 
+                         diameter and 3 feet deep. If the hole is placed on a surface that is <u>&#60;</u> 3
+                         feet thick, it creates a passageway through the surface straight to the other side;
+                         otherwise, it creates a normal pit. Using another action, the user can pull the hole
+                         off of the surface they placed it on, returning the surface to its normal state and
+                         sealing the aperture once more. Any objects or creatures inside the hole at this 
+                         time are forcefully ejected, taking 1d10 physical damage in the process. If the hole
+                         is placed on a surface &#60; 3 feet wide, the size of the hole matches the width of
+                         the surface it was placed on.<br>
+                        <b>Higher Levels.</b> At <i>4th level</i>, the cloth is 6 inches in diameter, creates
+                         a hole 6 feet in diameter and 6 feet deep, and deals 2d10 damage when it ejects
+                         creatures and objects. As an <i>artifact</i>, the cloth is 10 inches in diameter,
+                         creates a hole 10 feet in diameter and 10 feet deep, and deals 3d12 damage when it
+                         ejects creatures and objects.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>4th Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Phylactery</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Life, <i>4th level</i> and stronger; Earth and Water, <i>artifact</i>.<br>
+                        <b>Description.</b> A phylactery can be any container that fits within <u>&#60;</u> 1
+                         cubic foot of space, and allows one to store a bit of their life essence – a piece
+                         of their soul – inside it, ensuring their continued existence in the event their 
+                         current body dies. A phylactery will not supply a new body for the deceased, but 
+                         simply stores their soul for an indefinite time until a new unoccupied body can be
+                         supplied (or the phylactery is destroyed), such as a corpse, Homunculus, or <a href="../Part3/Automata.html">Automaton</a>
+                         that has yet to Awaken. An Undead being, such as a Skeleton or Zombie, does not 
+                         qualify. In the event a corpse is to be used, it must have died of a cause other 
+                         than old age and have no missing vital organs, such as its heart, lungs, or brain;
+                         if both of these qualifications have been met, then the power of the phylactery will
+                         restore the corpse to 1 Health, healing any mortal wounds. The unoccupied body must
+                         be within 10 feet of the phylactery to be possessed.<br>
+                        <b>Higher Levels.</b> As an <i>artifact</i>, a phylactery can create a… serviceable 
+                         new body for the user. This new body forms over the course of 1d12 days, and is 
+                         clearly not a normal Sentient body. In short, it has the appearance of being a 
+                         half-rotted corpse, and while it will have all the necessary appendages (two arms 
+                         and legs, two eyes, etc.), it will also have several chunks of flesh missing, such
+                         as exposed bones and sinew, a missing nose, etc. The power of the phylactery keeps 
+                         the body alive, but only for so long; over the course of 1d12 months, the new body 
+                         decays beyond the point of usability. The user can choose between a body constructed
+                         by the phylactery or possessing an unoccupied body.<br>
+                        <b>Destroying a phylactery.</b> A phylactery does not follow the ordinary rules for
+                         being destroyed. Essentially, a phylactery is the only <i>4th level</i>/<i>artifact</i>
+                         enchant that can be destroyed without needing to be disenchanted, and can be 
+                         destroyed as though it were a <i>1st</i>/<i>2nd level</i> object. This is because 
+                         the power of the phylactery is so extremely funneled into retrieving and containing 
+                         the attuned soul – and providing it with a new body – that it leaves relatively very 
+                         little power to protect the container itself.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Armors</h2>
+            <p>Full suits of enchanted armor can take the form of any kind of armor.</p>
+            
+            <br>
+            
+            <i><b>1st Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Boots of Speed</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air, <i>1st level</i> and stronger; Space or Time, <i>4th level</i> and stronger.<br>
+                        <b>Description.</b> These boots increase the user’s movement speed by 5 feet.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i> these boots increase movement speed by 10 
+                         feet; <i>3rd level</i> increases it by 15 feet; <i>4th level</i> brings it up to 20
+                         feet; as an <i>artifact</i>, it increases the user’s movement speed by 30 feet.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Helm of Dark Sight</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, <i>1st level</i> and stronger; Light, <i>4th level</i> and stronger.<br>
+                        <b>Description.</b> This cowl gives the user <a href="../Part6/Chapter6.html">infrared vision</a>.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i>, the cowl grants the user  <a href="../Part6/Chapter6.html">darkvision</a>;
+                         <i>3rd level</i>, this helm allows the user to see through arcane darkness as well.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Shield of Protection</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth, <i>1st level</i> and stronger; Space or Time, <i>4th level</i> and stronger.<br>
+                        <b>Description.</b> This shield grants a +1 bonus to the user’s Armor score.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i>, the given bonus is +2; at <i>3rd level</i>,
+                         it becomes +4; at <i>4th level</i>, it becomes +6; as an <i>artifact</i>, it becomes +8.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>2nd Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Aqueous Armor</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Water.<br>
+                        <b>Description.</b> This full suit of armor increases the user’s Swim proficiency by
+                         1, up to 6.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, this armor increases the 
+                         user’s Swim proficiency by 2, up to 6. At <i>4th level</i>, it 
+                         increases by 3, up to 6. As an <i>artifact</i>, the wearer's Swim
+                         proficiency becomes 6.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Armor of Damage Resistance</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth.<br>
+                        <b>Description.</b> This full suit of armor grants the user resistance to any one 
+                         <a href="../Part6/Chapter5.html">damage type</a> except true or 
+                         fatigue.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, this armor grants resistance to any two <a href="../Part6/Chapter5.html">damage 
+                         types</a> that are not true or fatigue, or just true damage. At <i>4th level</i> this armor 
+                         grants resistance to any three <a href="../Part6/Chapter5.html">damage types</a>
+                         that are not true or fatigue, or true and one other type of damage. As an <i>artifact</i>,
+                         this armor grants a +2 bonus to the user’s Armor score and resistance to any five <a href="../Part6/Chapter5.html">damage types</a>
+                         that are not true or fatigue, or true and three other types of damage.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Armor of Protection</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Earth or Air, <i>2nd level</i> and stronger; Space or Time, <i>4th level</i>
+                         and stronger.<br>
+                        <b>Description.</b> This full suit of armor grants a +1 bonus to the user’s Armor score.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, the Armor bonus increases to +2;
+                         at <i>4th level</i>, it becomes +4; as an <i>artifact</i>, it becomes +8.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Boots of Water Walking</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air and Water, <i>2nd level</i> or stronger; Space, <i>3rd level</i>.<br>
+                        <b>Description.</b> These boots allow the user to walk normally on water; if the 
+                         waters are rough, then they are considered difficult terrain.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, rough waters are no longer considered 
+                         difficult terrain.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Gloves of the Spider</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air, Earth, or Gravity.<br>
+                        <b>Description.</b> These gloves allow the user to climb up vertical and upside-down
+                         surfaces at their walking speed without needing to make a check.<br>
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Helm of Breathing</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air.<br>
+                        <b>Description.</b> This helm allows the user to breathe dangerous gases and vapors
+                         safely.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, it also allows one to breathe underwater.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>3rd Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Helm of Clarity</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Magic, <i>3rd level</i> and stronger; Light, <i>4th level</i> and 
+                         stronger.<br>
+                        <b>Description.</b> This helmet protects the user’s mind from outward assault, 
+                         increasing their <a href="../Part1/Chapter6.html">Willpower</a> score by 1.<br>
+                        <b>Higher Levels.</b> At <i>4th level</i>, the bonus to the user’s <a href="../Part1/Chapter6.html">Willpower</a> score 
+                         increases to 2. As an <i>artifact</i>, the user’s <a href="../Part1/Chapter6.html">Willpower</a> score increases by 3, 
+                         they automatically succeed on any <a href="../Part1/Chapter6.html">Willpower</a> save with a DR of <u>&#60;</u> 20, and 
+                         have advantage on all other <a href="../Part1/Chapter6.html">Willpower</a> saves.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>4th Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Shield of Spell Defense</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Any.<br>
+                        <b>Description.</b> This shield grants special protection against <a href="../Part4/Aetherian.html">Aetherians</a> 
+                         and spell-casting enchants. This shield grants resistance to any damage dealt by 
+                         spells, and advantage on any save against spells and their effects. If the Aether 
+                         used to make the shield is of the same type as the origin of the spell, the spell 
+                         deals no damage against the user, and the user automatically succeeds on any save(s) 
+                         the spell might require.<br>
+                        <b>Higher Levels.</b> As an <i>artifact</i>, this shield grants total immunity 
+                         against all spells that cost < 10 Mana and is able to protect one Big or 
+                         smaller creature that is an adjacent to the user, granting that creature the 
+                         benefits of the <i>4th level</i> version of this shield.
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Weapons</h2>
+            <p>Most every enchanted weapon can actually take the form of any weapon regardless
+             of the name, e.g. a Biting Blade does not need to be a blade but can be any weapon. This
+             does not mean that the weapon changes shape on command, just that when the GM decides to
+             place a weapon in their world, it can be any kind of weapon that they desire.</p>
+            
+            <br>
+            
+            <i><b>1st Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Dawnbringer</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Light.<br>
+                        <b>Description.</b> This weapon sheds bright light in a 20 foot radius and dim light
+                         for another 20 feet at the user’s discretion.<br>
+                        <b>Higher Levels.</b> At <i>2nd level</i>, it sheds 40 feet of bright and dim light;
+                         at <i>3rd level</i> it sheds 80 feet of bright and dim light; at <i>4th level</i>, 
+                         120 feet of each; and as an <i>artifact</i>, it sheds 240 feet of bright and dim light.
+                    </div>
+                </div>
+            </div>
+            
+            <i><b>2nd Level</b></i>
+            
+            <br><br>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Biting Blade</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Air, Earth, Space, or Time.<br>
+                        <b>Description.</b> This weapon increases the user’s proficiency in the same type as
+                         the weapon itself by 1, up to 6.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, proficiency increases by 2,
+                        up to 6; at <i>4th level</i>, it increases proficiency by 3, up to 6,
+                         and grants a +1 bonus to attacks; as an <i>artifact</i>, it increases
+                         the user’s proficiency by 4, up to 6, and grants a +2 bonus to attacks.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Blink Blade</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Space.<br>
+                        <b>Description.</b> This weapon has 4 charges and can expend 1 charge to teleport the
+                         user to any unoccupied space they can see within 15 feet using an action. It regains
+                         1d3 charges at midnight.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, the number of charges increases to 6, the
+                         range increases to 30 feet, and the number of charges regained becomes 1d4+1. At 
+                         <i>4th level</i>, the number of charges increases to 8, the range of the teleport 
+                         increases to 60 feet, and the number of charges regained becomes 1d6+2. As an 
+                         <i>artifact</i>, it has 12 charges, the range is 120 feet, and it regains 1d8+4 
+                         charges at midnight.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Dagger of Returning</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Space.<br>
+                        <b>Description.</b> This weapon, when thrown, instantly reappears in the user’s 
+                         grasp so long as they remain within 60 feet of it.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, it reappears as long as the user is within
+                         180 feet. At <i>4th level</i>, it reappears within 600 feet. As an <i>artifact</i>,
+                         it returns to the user so long as it is within 1 mile of them.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <button type="button" class="grid">Flametongue</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Fire, <i>2nd level</i> and stronger; Light, <i>4th level</i> and stronger.<br>
+                        <b>Description.</b> This weapon becomes awash in flame at the user’s command, 
+                         shedding bright light in a 10 foot radius and dim light for an extra 10 feet, and 
+                         dealing an extra 1d6 burn damage with each strike.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, this weapon deals 2d6 burn damage on every
+                         strike and sheds 15 feet of bright and dim light. At <i>4th level</i>, it deals 3d6
+                         burn damage and sheds 20 feet of bright and dim light. As an <i>artifact</i>, it 
+                         deals 4d8 extra burn damage and sheds 30 feet of bright and dim light.
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <button type="button" class="grid">Spell Staff/Wand</button>
+                    <div class="gridtent">
+                        <b>Aether.</b> Any.<br>
+                        <b>Description.</b> This enchant has 4 Mana at its disposal and can use that Mana to
+                         cast spells from the <a href="../Part4/Aetherian.html">Aetherian</a>
+                         spell list of the same type of Aether that was used to make it. At the GM’s 
+                         discretion, it may regain all of its expended Mana at midnight every day, or it may
+                         be a single-use item. The user knows which it is when they attune to it.<br>
+                        <b>Higher Levels.</b> At <i>3rd level</i>, it has 8 Mana at its disposal; at 
+                         <i>4th level</i>, 12 Mana; as an <i>artifact</i>, it has 20 Mana stored within it.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("grid");
+            var i;
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var gridtent = this.nextElementSibling;
+                    if (gridtent.style.maxHeight) {
+                        gridtent.style.maxHeight = null;
+                    } else {
+                        gridtent.style.maxHeight = gridtent.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        
+    </body>
+   
+</html>

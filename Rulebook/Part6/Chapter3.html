@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+      
+        <title>Chapter 3: Conditions</title>
+        
+        <link rel="stylesheet" href="../RulesStyle.css">
+        <script src="../RulesFunc.js"></script>
+    </head>
+    
+    <body>
+        <!--Site Nav-->
+        <!--Sidebar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times; &nbsp; Part 6: Adventuring</a>
+            <a href="./Chapter1.html">Chapter 1: Actions</a>
+            <a href="./Chapter2.html">Chapter 2: Damage Types</a>
+            <a href="./Chapter3.html" class="active">Chapter 3: Conditions</a>
+            <a href="./Chapter4.html">Chapter 4: Enduring</a>
+            <a href="./Chapter5.html">Chapter 5: Combat</a>
+            <a href="./Chapter6.html">Chapter 6: Brightness</a>
+            <a href="./Chapter7.html">Chapter 7: Weather</a>
+            <a href="./Chapter8.html">Chapter 8: Traveling</a>
+            <a href="./Chapter9.html">Chapter 9: Languages</a>
+            <a href="./Chapter10.html">Chapter 10: Downtime</a>
+            <a href="./Chapter11.html">Chapter 11: Crafting</a>
+            <a href="./Chapter12.html">Chapter 12: Chases</a>
+            <a href="./Chapter13.html">Chapter 13: Traps</a>
+            <a href="./Chapter14.html">Chapter 14: Puzzles</a>
+            <a href="./Chapter15.html">Chapter 15: Random Encounters</a>
+            <a href="./Chapter16.html">Chapter 16: Lingering Injuries</a>
+            <a href="./Chapter17.html">Chapter 17: Madness</a>
+            <a href="./Chapter18.html">Chapter 18: Adventure Hooks</a>
+        </div>
+        
+        <!--Top navigation-->
+        <div class="topnav">
+
+            <!--Left-aligned links-->
+            <div class="topnavleft">
+                <a href="../../index.html">
+                    <img src="../../Artwork/Logo/Iron-Aether_transparent.png"
+                     width="100px" height="58px"
+                     alt="Iron & Aether">
+                </a>
+            </div>
+            
+            <!--Centered links-->
+            <div class="topnavcenterleft">
+                <a href="./Chapter2.html">&larr; Prev</a>
+            </div>
+            <div class="topnavcenter">
+                <a href="../Home/RulesHome.html">Table of Contents</a>
+            </div>
+            <div class="topnavcenterright">
+                <a href="./Chapter4.html">Next &rarr;</a>
+            </div>
+            
+            <!--Right-aligned links-->
+            <div class="topnavdiscord">
+                <!--Discord button-->
+                <a href="https://discord.gg/n2kXGZJ" target="_blank">Discord</a>
+            </div>
+            <!--Right-aligned links-->
+            <div class="topnavright">
+                <!--Sidebar, does not push-->
+                <span onclick="openSide()">Part 6: Adventuring &ensp; &#9776;</span>
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="rules">
+        
+            <center><h1>Chapter 3: Conditions</h1></center>
+            <p>There are many, many circumstances under which a character may become somehow 
+             impaired, such as losing their sight or ability to move, or gaining an awful feeling in
+             their body or mind that makes performing actions more difficult. Listed and described
+             here are several such conditions and their effects on a creature. Several conditions 
+             refer to another condition in their description; in such cases, the effects stack with
+             each other.</p>
+            
+            <p><b>Blinded.</b> A blinded creature is unable to see, and as a result, all attacks 
+             against them have advantage, all attacks by them have disadvantage, and they 
+             automatically fail all sight-based skill and ability checks.</p>
+            <p><b>Charmed.</b> The charmed condition grants advantage to all social 
+             skill and ability checks when made by the charmer to the charmed; in addition, the
+             charmed creature cannot willingly attack the charmer.</p>
+            <p><b>Deafened.</b> A deafened creature cannot hear, and automatically 
+             fails any and all hearing-based skill and ability checks. It also has disadvantage on 
+             Perception checks.</p>
+            <p><b>Frightened.</b> When a creature is frightened, it makes all of its 
+             skill and ability checks with disadvantage while it can see the source of its fear, 
+             which it cannot willingly move closer to.</p>
+            <p><b>Grappled.</b> A grappled creature cannot move and cannot benefit to
+             any bonuses to its movement. Attacks made against a grappled creature by the creature 
+             grappling it have advantage. The condition ends if something forcibly removes the 
+             victim from the grappler’s grasp or if the grappler lets them go.</p>
+            <p><b>Incapacitated.</b> An incapacitated creature cannot move and cannot
+             take any actions or reactions except speech.</p>
+            <p><b>Invisible.</b> A creature that is invisible cannot be visually 
+             perceived unless by special exception and has advantage on sight-based Stealth checks. 
+             They can still be perceived by disturbances in their environment however, such as the 
+             noises they make or any tracks they leave behind. In addition, attacks that they make 
+             against creatures who cannot see them have advantage and attacks against them by 
+             creatures who cannot see them have disadvantage.</p>
+            <p><b>Paralyzed.</b> A paralyzed creature is <b>incapacitated</b> and its 
+             Dodge score is reduced to 0.</p>
+            <p><b>Petrified.</b> A petrified creature is completely frozen as it is 
+             turned to ice, stone, or a similar material. It cannot regain or lose Health or take any
+             kind of action or reaction. It is immune to psychic damage, automatically passes all 
+             <a href="../Part1/Chapter6.html">Willpower saves</a>, its <a href="../Part1/Chapter6.html">Fortitude</a>
+             score becomes 5, its Dodge score becomes 0, and its Armor score becomes 20; if it takes
+             any final damage, it starts to break apart, the severity of which being up to the amount
+             of final damage taken and the DM’s discretion.</p>
+            <p><b>Prone.</b> A prone creature can only crawl unless it uses an action
+             to stand up. All attacks made by a prone creature have disadvantage, except Firearm 
+             weapon attacks, which have advantage. Melee attacks against a prone creature have 
+             advantage, while ranged attacks have disadvantage.</p>
+            <p><b>Restrained.</b> A restrained creature is also considered <b>grappled</b>,
+             however it can no longer make attacks and attacks against it have advantage.</p>
+            <p><b>Sickened.</b> A sickened creature feels illness take root somewhere
+             in their body, crippling them from the inside. All of a sickened creature’s checks, 
+             attacks, and saves are made with disadvantage, and attacks against it have advantage.</p>
+            <p><b>Slowed.</b> A slowed creature can only perform one action on its 
+             turn, cannot use reactions, has its Dodge score reduced by half, and performs its 
+             attacks with disadvantage.</p>
+            <p><b>Stunned.</b> A stunned creature is considered <b>incapacitated</b>,
+             however can only speak falteringly and in stutters. In addition, attacks against it have
+             advantage, and it makes all saves with disadvantage.</p>
+            <p><b>Unconscious.</b> An unconscious creature is <b>incapacitated</b>,
+             cannot speak, and is completely unaware of its surroundings. It drops whatever it is
+             holding in its hands and falls <b>prone</b> unless something physically prevents it from
+             doing so, and its Dodge score is reduced to 0.</p>
+             
+        </div>
+    </body>
+   
+</html>

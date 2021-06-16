@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+      
+        <title>Chapter 2: Arms</title>
+        
+        <link rel="stylesheet" href="../RulesStyle.css">
+        <script src="../RulesFunc.js"></script>
+    </head>
+    
+    <body>
+        <!--Site Nav-->
+        <!--Sidebar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times; &nbsp; Part 5: Equipment</a>
+            <a href="./Chapter1.html">Chapter 1: Currency</a>
+            <a href="./Chapter2.html" class="active">Chapter 2: Arms</a>
+            <a href="./Chapter3.html">Chapter 3: Armor</a>
+            <a href="./Chapter4.html">Chapter 4: Gear</a>
+            <a href="./Chapter5.html">Chapter 5: Mounts and Vehicles</a>
+            <a href="./Chapter6.html">Chapter 6: Siege Weapons</a>
+        </div>
+        
+        <!--Top navigation-->
+        <div class="topnav">
+
+            <!--Left-aligned links-->
+            <div class="topnavleft">
+                <a href="../../index.html">
+                    <img src="../../Artwork/Logo/Iron-Aether_transparent.png"
+                     width="100px" height="58px"
+                     alt="Iron & Aether">
+                </a>
+            </div>
+            
+            <!--Centered links-->
+            <div class="topnavcenterleft">
+                <a href="./Chapter1.html">&larr; Prev</a>
+            </div>
+            <div class="topnavcenter">
+                <a href="../Home/RulesHome.html">Table of Contents</a>
+            </div>
+            <div class="topnavcenterright">
+                <a href="./Chapter3.html">Next &rarr;</a>
+            </div>
+            
+            <!--Right-aligned links-->
+            <div class="topnavdiscord">
+                <!--Discord button-->
+                <a href="https://discord.gg/n2kXGZJ" target="_blank">Discord</a>
+            </div>
+            <!--Right-aligned links-->
+            <div class="topnavright">
+                <!--Sidebar, does not push-->
+                <span onclick="openSide()">Part 5: Equipment &ensp; &#9776;</span>
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="rules">
+        
+            <center><h1>Chapter 2: Arms</h1></center>
+            
+            <p>Weapons are the bread and butter of any adventurer’s kit; any fighter worth their
+             salt can tell a flail from a mace and a spear from a glaive. You choose what weapons you
+             want proficiency in at character creation, and leveling up, time spent training, and/or
+             feats can give you proficiency with even more. No matter what your martial preference is,
+             the ability to wield your arms effectively can be the difference between a grisly death
+             and adventures so wild not even the most creative minstrel could dream them up.</p>
+            <p>The <b>Normal Weapons</b>, <b>Exotic Weapons</b>, and <b>Trick Weapons</b>
+             tables give a list of many of the different weapons and weapon types throughout
+             this ruleset. These tables include their names, price, weight, base damage, and any 
+             special properties they may have.</p>
+            <p><b>Base Damage.</b> The amount of damage listed for a given weapon is that
+             weapon’s Base Damage; it is the damage it deals if the character wielding it has 1 
+             <a href="../Part1/Chapter3.html">proficiency</a> with the type of weapon that
+             that weapon belongs to. For every <a href="../Part1/Chapter3.html">proficiency</a>
+             above 1 that a character has with that weapon type, the amount of damage die rolled
+             in addition to the base damage is increased by 1.</p>
+            <p><b>Properties.</b> The properties of a weapon give a list of any special 
+             characteristics a weapon may have, if any:</p>
+                <ul>
+                    <li><b>Ammunition.</b> Weapons with the Ammunition property require a specified amount of 
+                     projectiles to be loaded into them before you can attack with them. Weapons with this 
+                     property have their range/long range in feet listed next to their ammunition types. 
+                     Attacks with the weapon made in their standard range are made normally; attacks made at 
+                     long range and at melee range are made with disadvantage.</li>
+                    <li><b>Description.</b> Some weapons have special abilities or characteristics to them that
+                     can’t be summarized in just a couple of words. These weapons have the Description property,
+                     and their unique property is described in detail in their weapon description at the end of 
+                     the list.</li>
+                    <li><b>DEX(*).</b> Weapons with the DEX property can use DEX for their attacks instead of STR
+                     if the player using them so wishes; without this property, a weapon can only use STR for its
+                     attacks, unless otherwise stated by a special exception. Additionally, if a weapon has the DEX*
+                     property, then the wielder must use their DEX score when making attacks with this weapon.</li>
+                    <li><b>Long.</b> Some melee weapons have a 10-foot range, longer than the standard 5 feet that 
+                     most melee weapons have. These weapons have the Long property, and if they have a further reach
+                     than 10 feet, their range (in feet) will be listed in parentheses next to this property. In narrow
+                     spaces, attacks with weapons with this property have disadvantage.</li>
+                    <li><b>Reload.</b> A weapon that requires <u>></u> 1 action(s) to be reloaded has the Reload property;
+                     the number of actions or time required will be given in parentheses next to the property.</li>
+                    <li><b>STR x.</b> A weapon with “STR x” (e.g. STR 3) requires a STR score <u>></u> the value given in 
+                     order to be wielded.</li>
+                    <li><b>Two-handed.</b> Weapons with the Two-handed property are large and hefty, requiring two hands
+                     to be able to effectively wield in battle. Weapons with this property cannot be dual-wielded without
+                     the aid of the “Two-handed Dual-Wielding” classless feat.</li>
+                </ul>
+            
+            <button type="button" class="collapsible">Normal Weapons</button>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th><b>Name</b></th>
+                        <th><b>Cost</b></th>
+                        <th><b>Base Damage</b></th>
+                        <th><b>Weight</b></th>
+                        <th><b>Properties</b></th>
+                    </tr>
+                    <tr>
+                        <td><i>Archery Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Longbow</td>
+                        <td>7.5A</td>
+                        <td>1d8 physical</td>
+                        <td>6 lbs.</td>
+                        <td>Ammunition (1 arrow, 300/600), DEX, STR 3, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Shortbow</td>
+                        <td>4A</td>
+                        <td>1d6 physical</td>
+                        <td>4 lbs.</td>
+                        <td>Ammunition (1 arrow, 120/240), DEX, STR 2, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Sling</td>
+                        <td>20c</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>Ammunition (1 small object, 30/60), DEX*</td>
+                    </tr>
+                    <tr>
+                        <td>Slingshot</td>
+                        <td>50c</td>
+                        <td>1d3 physical</td>
+                        <td>1 lb.</td>
+                        <td>Ammunition (1 small object, 20/50), DEX, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Warbow</td>
+                        <td>10A</td>
+                        <td>1d10 physical</td>
+                        <td>10 lbs.</td>
+                        <td>Ammunition (1 arrow, 400/800), DEX, STR 4, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td><i>Firearm Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Arquebus</td>
+                        <td>30A</td>
+                        <td>1d8 physical</td>
+                        <td>10 lbs.</td>
+                        <td>Ammunition (1 miniball & 2 oz. gunpowder, 80/200), DEX*, two-handed, reload (10)</td>
+                    </tr>
+                    <tr>
+                        <td>Blowgun</td>
+                        <td>50c</td>
+                        <td>1d2 physical</td>
+                        <td>1 lb.</td>
+                        <td>Ammunition (1 blowdart, 30/60), DEX*</td>
+                    </tr>
+                    <tr>
+                        <td>Crossbow, hand</td>
+                        <td>7.5A</td>
+                        <td>1d4 physical</td>
+                        <td>3 lbs.</td>
+                        <td>Ammunition (1 bolt, 30/60), DEX*, reload (1)</td>
+                    </tr>
+                    <tr>
+                        <td>Crossbow, heavy</td>
+                        <td>15A</td>
+                        <td>1d8 physical</td>
+                        <td>15 lbs.</td>
+                        <td>Ammunition (1 bolt, 300/600), DEX*, reload (2), STR 2, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Crossbow, light</td>
+                        <td>12A</td>
+                        <td>1d6 physical</td>
+                        <td>7 lbs.</td>
+                        <td>Ammunition (1 bolt, 120/360), DEX*, reload (2), STR 2, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Flamethrower</td>
+                        <td>30A</td>
+                        <td>1d8 burn</td>
+                        <td>20 lbs.</td>
+                        <td>Ammunition (1 gallon fuel, 10/20), description, DEX*, reload (2)</td>
+                    </tr>
+                    <tr>
+                        <td>Flintlock</td>
+                        <td>25A</td>
+                        <td>1d6 physical</td>
+                        <td>5 lbs.</td>
+                        <td>Ammunition (1 miniball & 1 oz. gunpowder, 40/100), DEX*, reload (5)</td>
+                    </tr>
+                    <tr>
+                        <td>Repeater</td>
+                        <td>50A</td>
+                        <td>1d8 physical</td>
+                        <td>10 lbs.</td>
+                        <td>Ammunition (6 bullets, 150/500), description, DEX*, two-handed, reload (2)</td>
+                    </tr>
+                    <tr>
+                        <td>Revolver</td>
+                        <td>30A</td>
+                        <td>1d6 physical</td>
+                        <td>5 lbs.</td>
+                        <td>Ammunition (6 bullets, 60/150), description, DEX*, reload (2)</td>
+                    </tr>
+                    <tr>
+                        <td><i>Large Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Claymore</td>
+                        <td>7.5A</td>
+                        <td>1d8 physical</td>
+                        <td>4 lbs.</td>
+                        <td>STR 2, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Greataxe</td>
+                        <td>7.5A</td>
+                        <td>1d8 physical</td>
+                        <td>4 lbs.</td>
+                        <td>STR 2, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Greatclub</td>
+                        <td>25c</td>
+                        <td>1d8 physical</td>
+                        <td>8 lbs.</td>
+                        <td>STR 2.5, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td><i>Medium Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Battleaxe</td>
+                        <td>2A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Flail</td>
+                        <td>2.5A</td>
+                        <td>1d6 physical</td>
+                        <td>5 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Mace</td>
+                        <td>2.5A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Rapier</td>
+                        <td>2A</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Sword</td>
+                        <td>2A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Warhammer</td>
+                        <td>2.5A</td>
+                        <td>1d6 physical</td>
+                        <td>4 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Warpick</td>
+                        <td>2.5A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Whip</td>
+                        <td>1A</td>
+                        <td>1d6 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX*, long</td>
+                    </tr>
+                    <tr>
+                        <td><i>Polearm Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Glaive</td>
+                        <td>5A</td>
+                        <td>1d8 physical</td>
+                        <td>5 lbs.</td>
+                        <td>Long, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Halberd</td>
+                        <td>5A</td>
+                        <td>1d8 physical</td>
+                        <td>6 lbs.</td>
+                        <td>Long, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Spear</td>
+                        <td>1A</td>
+                        <td>1d6 physical</td>
+                        <td>4 lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Staff</td>
+                        <td>30c</td>
+                        <td>1d6 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Trident</td>
+                        <td>5A</td>
+                        <td>1d8 physical</td>
+                        <td>4 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Warscythe</td>
+                        <td>5A</td>
+                        <td>1d8 physical</td>
+                        <td>7 lbs.</td>
+                        <td>Long, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td><i>Small Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Club</td>
+                        <td>1c</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Dagger</td>
+                        <td>50c</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Handaxe</td>
+                        <td>75c</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Light Hammer</td>
+                        <td>75c</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Shortsword</td>
+                        <td>1.5A</td>
+                        <td>1d6 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Sickle</td>
+                        <td>75c</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td><i>Throwing Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Bola</td>
+                        <td>80c</td>
+                        <td>-</td>
+                        <td>2 lbs.</td>
+                        <td>Description, DEX*, 30/90</td>
+                    </tr>
+                    <tr>
+                        <td>Boomerang</td>
+                        <td>50c</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>Description, DEX*, 40/80</td>
+                    </tr>
+                    <tr>
+                        <td>Dagger</td>
+                        <td>50c</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX*, 20/60</td>
+                    </tr>
+                    <tr>
+                        <td>Handaxe</td>
+                        <td>75c</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX*, 20/60</td>
+                    </tr>
+                    <tr>
+                        <td>Javelin</td>
+                        <td>75c</td>
+                        <td>1d6 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX, 30/90</td>
+                    </tr>
+                    <tr>
+                        <td>Light Hammer</td>
+                        <td>75c</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX*, 20/60</td>
+                    </tr>
+                    <tr>
+                        <td>Net</td>
+                        <td>75c</td>
+                        <td>-</td>
+                        <td>4 lbs.</td>
+                        <td>Description, DEX*, 5/10</td>
+                    </tr>
+                    <tr>
+                        <td>Shuriken</td>
+                        <td>25c</td>
+                        <td>1d4 physical</td>
+                        <td>½ lbs.</td>
+                        <td>DEX*, 30/60</td>
+                    </tr>
+                    <tr>
+                        <td>Spear</td>
+                        <td>1A</td>
+                        <td>1d6 physical</td>
+                        <td>4 lbs.</td>
+                        <td>DEX, 60/120</td>
+                    </tr>
+                    <tr>
+                        <td>Trident</td>
+                        <td>10A</td>
+                        <td>1d8 physical</td>
+                        <td>4 lbs.</td>
+                        <td>DEX*, 30/60</td>
+                    </tr>
+                    <tr>
+                        <td><i>Unarmed Weapons</i></td>
+                    </tr>
+                    <tr>
+                        <td>Bare Hands</td>
+                        <td>-</td>
+                        <td>1d2 physical</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Brass Knuckles</td>
+                        <td>1A</td>
+                        <td>1d4 physical</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Claws</td>
+                        <td>2A</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <p><b>Bola.</b> Bolas are a typed of throwing weapon consisting of two weights
+             linked together by a length of durable cord, usually rope or chain. When thrown at a 
+             target, they must make a Reflex save contested against your DEX check or be 
+             <a href="../Part6/Chapter3.html">grappled</a> as the bola wraps around 
+             them. They can escape by either using an action to destroy the cord or by making a STR
+             check to wrestle their way out of it, which also takes an action.</p>
+            <p><b>Boomerang.</b> A boomerang is a flattened and curved piece of wood or light metal;
+             though most boomerangs are a single length of wood bent at almost 90 degrees towards the 
+             middle, other variations do exist. In any case, a boomerang is a ranged weapon that is 
+             designed to return to the user after being thrown. When attacking with this weapon, if it
+             hits nothing during its flight path, it returns to you.</p>
+            <p><b>Flamethrower.</b> A firearm that belches a column of intense flames, a 
+             flamethrower can be an incredibly powerful and useful tool. It can be fired 6 times before
+             it needs to be refueled.</p>
+            <p><b>Net.</b> Nets function much the same way bolas do, though their appearance
+             is quite different. When thrown at a target, they must make a Reflex save contested against your
+             DEX check or be <a href="../Part6/Chapter3.html">restrained</a> as the net 
+             entangles them. They can escape by either using an action to destroy the net or by making a STR 
+             check to wrestle their way out of it, which also takes an action.</p>
+            <p><b>Repeater.</b> Coming in a variety of forms, such as the lever-action, 
+             pump-action, or bolt-action, repeaters are rifles that, like revolvers, can be fired 6 times 
+             before needing to be reloaded.</p>
+            <p><b>Revolver.</b> Revolvers are hand-held firearms that sacrifice power for 
+             accuracy and the ability to fire 6 times before needing to be reloaded, like repeaters.</p>
+             
+            <h2>Exotic Weapons</h2>
+            <p>Exotic weapons are unique and/or rare weapons that require specialized training to be used
+             effectively. Most are foreign to the vast majority; even veteran fighters are usually not quite 
+             sure how to handle one when they first encounter it.</p>
+            <p><b>Proficiency.</b>Proficiency with exotic weapons is not like proficiency with
+             other Weapon Skills; instead, proficiency for each Exotic weapon is unique to that weapon. For 
+             instance, a character with 2 proficiency with hook blades would not have the same proficiency 
+             with bladed fans or tri-staves. In addition, if an Exotic weapon has the <b>Thrown</b> property,
+             a character could use their proficiency with the weapon itself or their Throwing proficiency when 
+             making attacks with that weapon. Similar to every other weapon skill, it takes 1 Weapon Point for
+             proficiency with an Exotic weapon to increase by 1.</p>
+            
+            <button type="button" class="collapsible">Exotic Weapons</button>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th><b>Name</b></th>
+                        <th><b>Cost</b></th>
+                        <th><b>Base Damage</b></th>
+                        <th><b>Weight</b></th>
+                        <th><b>Properties</b></th>
+                    </tr>
+                    <tr>
+                        <td>Bladed Fan</td>
+                        <td>5A</td>
+                        <td>1d4 physical</td>
+                        <td>½ lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Chakram</td>
+                        <td>5A</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX, thrown (60/120)</td>
+                    </tr>
+                    <tr>
+                        <td>Cypher</td>
+                        <td>5A</td>
+                        <td>1d6 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Double-bladed Staff</td>
+                        <td>10A</td>
+                        <td>1d6 physical</td>
+                        <td>5 lbs.</td>
+                        <td>DEX, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Hook Blades</td>
+                        <td>5A</td>
+                        <td>1d6 physical</td>
+                        <td>4 lbs.</td>
+                        <td>DEX, long</td>
+                    </tr>
+                    <tr>
+                        <td>Krull</td>
+                        <td>10A</td>
+                        <td>1d4 physical</td>
+                        <td>3 lbs.</td>
+                        <td>DEX, thrown (30/60)</td>
+                    </tr>
+                    <tr>
+                        <td>Kyoketsu-shoge</td>
+                        <td>5A</td>
+                        <td>1d4 physical</td>
+                        <td>5 lbs.</td>
+                        <td>Description, DEX, long (15)</td>
+                    </tr>
+                    <tr>
+                        <td>Meteor Hammer</td>
+                        <td>2A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>Description, DEX, long (15)</td>
+                    </tr>
+                    <tr>
+                        <td>Nun’chaku</td>
+                        <td>1A</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Rope Dart</td>
+                        <td>1A</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>Description, DEX, thrown (15/30)</td>
+                    </tr>
+                    <tr>
+                        <td>Tonfa</td>
+                        <td>1A</td>
+                        <td>1d4 physical</td>
+                        <td>1 lb.</td>
+                        <td>DEX</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <p><b>Bladed Fan.</b> A bladed fan appears to be a traditional folding fan, but 
+             with a razor-sharp metal edge. Typically dual-wielded but do not have to be.</p>
+            <p><b>Chakram.</b> A chakram is a circular bladed weapon, disc-shaped with the blade 
+             covering most of the outside edge, with the exception of a handle big enough for only one hand. This 
+             weapon can be effectively wielded as either a melee or a ranged weapon.</p>
+            <p><b>Cypher.</b> A cypher is akin to a shortsword with a secondary handle sticking out 
+             perpendicular from the hilt, allowing it to be wielded in a way that makes it difficult to predict its 
+             movements and subsequently defend against.</p>
+            <p><b>Double-bladed Staff.</b> A double-bladed staff is a staff with a single or double-edged 
+             blade attached at each end.</p>
+            <p><b>Hook Blades.</b> Hook blades greatly resemble thin swords, with the exception that their
+             ends are curved. Because of this, hook blades are often dual-wielded, so that they can quickly and easily link
+             together to strike enemies further away. The hooks can also be used to grab and manipulate certain items or body
+             parts, such as ankles, shoulders, tree branches, etc.</p>
+            <p><b>Krull.</b> A krull looks something like a bladed star, except that this particular “star”
+             is akin to 5 daggers that have been fused at the handles and the blades are slightly curved. The design of 
+             the krull, with the inner half acting as a handle that can be grasped in a multitude of ways and the outer 
+             half being comprised of curved blades, allows it to be effectively wielded both in melee and as a thrown weapon.</p>
+            <p><b>Kyoketsu-shoge.</b> Kyoketsu-shoge are comprised of a 15 foot-long chain or cord with
+             a ring of metal attached at one end and a blade at the other. The ring of metal is blunt and roughly as 
+             wide as a Medium-sized creature’s hand. This is commonly used as a handle, or can have other items looped
+             through it to be used as a fulcrum. The blade has its own handle and both a hook and a point. This allows
+             it to be used as both an effective melee weapon and a grappling hook. Attacks made with the kyoketsu-shoge
+             in confined spaces do not have disadvantage if they are against a target 5 feet away.</p>
+            <p><b>Meteor Hammer.</b> A meteor hammer is a heavy weight or ball attached to a durable
+             length of cord or rope, usually about 10 feet in length, that is swung to attack enemies from surprising
+             and often difficult to block angles. The cord can also be used to bind enemies.</p>
+            <p><b>Nun'chaku.</b> Nun’chaku, also known as nun’chuks, greatly resemble two wooden or
+             metal clubs connected by a short length of chain, rope, or cord and are just as often dual-wielded as not.</p>
+            <p><b>Rope Dart.</b> A rope dart is a small serrated knife (such as a kunai, which is a
+             knife with a hole in the end of the handle) or dart that has a length (usually around 15 feet) of rope
+             or chain tied to it; this allows for a number of creative uses, chief among them being that the weapon’s
+             melee range is equal to the length of the cord. Additionally, when throwing the rope dart, you can instantly
+             pull it back so long as it is within 15 feet of you. You can also pull objects weighing 5 lbs. or less to you
+             using an action, so long as they are not being worn or carried.</p>
+            <p><b>Tonfa.</b> A tonfa is a club with a single handle sticking perpendicular out from
+             the handle, about 6 inches from one end. It can be wielded normally or while being held by the secondary 
+             handle, making it difficult to predict its movements and subsequently defend against. Tonfa are often dual-wielded.</p>
+            
+            <h2>Trick Weapons</h2>
+            <p>Trick weapons are special weapons that contain some sort of mechanical component; some transform into 
+             another weapon at the behest of the character wielding it (doing so takes an action), while others have 
+             alterations that make them easier to carry or allow them to fire more frequently. The mechanics of a trick 
+             weapon can be figured out with a successful DC 15 Mechanics check; unless this check is passed, a character 
+             cannot figure out how to properly use a Trick weapon unless they are shown how or trained in its use.</p>
+            <p><b>Alternate Form.</b> Some trick weapons can transform into a different weapon at the will 
+             of the wielder. This different weapon is called the Alternate Form, and it usually has its own separate shape,
+             damage, and properties.</p>
+            <p><b>Alternate Damage.</b> The Alternate Form of many trick weapons alters the weapon’s shape,
+             often resulting in the damage that the weapon deals changing as well.</p>
+            <p><b>Alternate Properties.</b> Some Alternate Forms also change the behavior of certain weapons,
+             giving them different or unique properties as per their different forms.</p>
+            <p><b>Limitless Possibilities.</b> Due to the very nature of trick weapons, there are almost limitless possibilities for what one might be able
+             to come up with. If you come up with an idea for their own trick weapon which is not listed in the following 
+             table, talk it over with your GM and try to come to an agreement over how this new trick weapon might perform
+             and what it might do. Does it have an Alternate Form? Does this Alternate Form affect its damage or bring any
+             new properties with it? These and more are all things that should be thought about and discussed with your DM
+             before implementing your trick weapon into a campaign.</p>
+            
+            <button type="button" class="collapsible">Trick Weapons</button>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th><b>Name</b></th>
+                        <th><b>Cost</b></th>
+                        <th><b>Base Damage</b></th>
+                        <th><b>Weight</b></th>
+                        <th><b>Properties</b></th>
+                    </tr>
+                    <tr>
+                        <td><i>Dedicated Melee</i></td>
+                    </tr>
+                    <tr>
+                        <td>Beatlash (escrima)</td>
+                        <td>30A</td>
+                        <td>1d4 physical</td>
+                        <td>3 lbs.</td>
+                        <td>Alternate form, DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Bifurcated swordstaff (swordstaff)</td>
+                        <td>50A</td>
+                        <td>1d6 physical</td>
+                        <td>5 lbs.</td>
+                        <td>Alternate form, DEX, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Bladehammer (claymore)</td>
+                        <td>50A</td>
+                        <td>1d8 physical</td>
+                        <td>10 lbs.</td>
+                        <td>Alternate form, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Bracer blade</td>
+                        <td>10A</td>
+                        <td>1d4 physical</td>
+                        <td>½ lbs.</td>
+                        <td>DEX, description, thrown (20/60)</td>
+                    </tr>
+                    <tr>
+                        <td>Chakram dagger (chakram)</td>
+                        <td>25A</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>Alternate form, DEX, thrown (60/120)</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing Krull</td>
+                        <td>20A</td>
+                        <td>1d4 physical</td>
+                        <td>2 lbs.</td>
+                        <td>DEX, thrown (40/80)</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing shield, large</td>
+                        <td>30A</td>
+                        <td>-</td>
+                        <td>2 lbs.</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing shield, medium</td>
+                        <td>25A</td>
+                        <td>-</td>
+                        <td>1½ lbs.</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing shield, small</td>
+                        <td>20A</td>
+                        <td>-</td>
+                        <td>1 lb.</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing spearstaff (staff)</td>
+                        <td>15A</td>
+                        <td>1d6 physical</td>
+                        <td>2 lbs.</td>
+                        <td>Alternate form, DEX, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Shortwhip (shortsword)</td>
+                        <td>30A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>Alternate form, DEX</td>
+                    </tr>
+                    <tr>
+                        <td>Sicklescythe (sickle)</td>
+                        <td>30A</td>
+                        <td>1d6 physical</td>
+                        <td>8 lbs.</td>
+                        <td>Alternate form</td>
+                    </tr>
+                    <tr>
+                        <td><i>Dedicated Ranged</i></td>
+                    </tr>
+                    <tr>
+                        <td>Auto-crossbow, hand</td>
+                        <td>40A</td>
+                        <td>1d4 physical</td>
+                        <td>6 lbs.</td>
+                        <td>Ammunition (3 bolts, 60/120), reload</td>
+                    </tr>
+                    <tr>
+                        <td>Auto-crossbow, heavy</td>
+                        <td>75A</td>
+                        <td>1d8 physical</td>
+                        <td>20 lbs.</td>
+                        <td>Ammunition (5 bolts, 300/600), reload, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Auto-crossbow, light</td>
+                        <td>60A</td>
+                        <td>1d6 physical</td>
+                        <td>12 lbs.</td>
+                        <td>Ammunition (4 bolts, 120/360), reload, two-handed</td>
+                    </tr>
+                    <tr>
+                        <td><i>Melee and Ranged</i></td>
+                    </tr>
+                    <tr>
+                        <td>Bladebow, long (longbow)</td>
+                        <td>30A</td>
+                        <td>1d8 physical</td>
+                        <td>6 lbs.</td>
+                        <td>Alternate form, ammunition (arrows, 250/500), two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Bladebow, short (shortbow)</td>
+                        <td>25A</td>
+                        <td>1d6 physical</td>
+                        <td>3 lbs.</td>
+                        <td>Alternate form, ammunition (arrows, 90/180), two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Gundagger</td>
+                        <td>50A</td>
+                        <td>1d4 physical (dagger)/1d6 physical (flintlock)</td>
+                        <td>4 lbs.</td>
+                        <td>Ammunition (bullets & gunpowder, 40/80), DEX, reload (5)</td>
+                    </tr>
+                    <tr>
+                        <td>Gunsword</td>
+                        <td>75A</td>
+                        <td>1d6 physical (sword)/1d8 physical (musket)</td>
+                        <td>6 lbs.</td>
+                        <td>Ammunition (bullets & gunpowder, 60/180), description, reload (10)</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <button type="button" class="collapsible">Trick Weapons - Alternate Form</button>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th><b>Name</b></th>
+                        <th><b>Alternate Damage</b></th>
+                        <th><b>Alternate Properties</b></th>
+                    </tr>
+                    <tr>
+                        <td><i>Dedicated Melee</i></td>
+                    </tr>
+                    <tr>
+                        <td>Beatlash (whip)</td>
+                        <td>1d6 physical</td>
+                        <td>DEX, long</td>
+                    </tr>
+                    <tr>
+                        <td>Bifurcated swordstaff (dual shortswords)</td>
+                        <td>1d6 physical</td>
+                        <td>DEX, description</td>
+                    </tr>
+                    <tr>
+                        <td>Bladehammer (warhammer)</td>
+                        <td>1d8 physical</td>
+                        <td>Two-handed</td>
+                    </tr>
+                    <tr>
+                        <td>Chakram dagger (dagger)</td>
+                        <td>1d4 physical</td>
+                        <td>DEX, thrown (20/60)</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing spearstaff (escrima)</td>
+                        <td>1d4 physical</td>
+                        <td>DEX, description</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing spearstaff (escrima, bladed)</td>
+                        <td>1d4 physical</td>
+                        <td>DEX, description</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsing spearstaff (spear)</td>
+                        <td>1d4 physical</td>
+                        <td>DEX, description, thrown (20/60)</td>
+                    </tr>
+                    <tr>
+                        <td>Shortwhip (bladed whip)</td>
+                        <td>1d6 physical</td>
+                        <td>DEX, long</td>
+                    </tr>
+                    <tr>
+                        <td>Sicklescythe (warscythe)</td>
+                        <td>1d8 physical</td>
+                        <td>Two-handed</td>
+                    </tr>
+                    <tr>
+                        <td><i>Melee and Ranged</i></td>
+                    </tr>
+                    <tr>
+                        <td>Bladebow, long (swords)</td>
+                        <td>1d6 physical</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Bladebow, short (daggers)</td>
+                        <td>1d4 physical</td>
+                        <td>DEX, description</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <p><b>Auto-crossbow, Hand.</b> An auto-crossbow is designed to be able to fire much more
+             quickly than its non-trick counterpart. For the hand auto-crossbow, it can be fired thrice before it needs
+             to be reloaded.</p>
+            <p><b>Auto-crossbow, Heavy.</b> A heavy auto-crossbow can be fired a maximum of five times
+             before it must be reloaded.</p>
+            <p><b>Auto-crossbow, Light.</b> Light auto-crossbows can be fired up to four times before 
+             needing to be reloaded.</p>
+            <p><b>Beatlash.</b> The beatlash is a series of small pieces of wood or metal that have been 
+             mechanically linked together so that they can either hold tightly together as an escrima, which is their 
+             primary form, or be given slack to increase their length, much like a whip.</p>
+            <p><b>Bifurcated Swordstaff.</b> The bifurcated swordstaff looks and functions exactly the 
+             double-bladed staff, except that much like the bladebow, the swords on the ends can come apart to become two 
+             separate shortswords. Also like the bladebow, a person must be in possession of both shortswords in order to 
+             rejoin the bifurcated swordstaff.</p>
+            <p><b>Bladehammer.</b> The bladehammer is a two-piece trick weapon; the first piece, a claymore, 
+             comprises its primary form. The second piece, a large hammer without a handle, doubles as both its sheath and 
+             its alternate form; when the blade of the claymore is placed all the way inside of the “sheath”, the two pieces
+             seamlessly connect and become one.</p>
+            <p><b>Bladebow, Long.</b> The long bladebow looks and functions much like a regular longbow, with
+             the exception that the limbs of the bow are comprised of two curved, flexible, single-edged swords, which come 
+             apart at the behest of the wielder. The string of the bow is contained within one of these swords and is 
+             automatically withdrawn whenever the swords come apart. When the swords are fused together once more, the loop 
+             of the string emerges from the tip of the sword containing it; the other blade has a nook behind the tip that 
+             the string is then looped through, allowing it to be used as a normal longbow once more. When the swords come 
+             apart, they can be treated as two separate swords; however, a person must be in possession of both before the 
+             bladebow can be returned to its primary form.</p>
+            <p><b>Bladebow, Short.</b> The short bladebow functions exactly like the long variation, except
+             that the blades are naturally smaller and look a lot like a pair of kukri knives.</p>
+            <p><b>Bracer Blade.</b> The bracer blade is a small stiletto that has been designed to slide 
+             mechanically in and out of a bracer that has been specially designed to contain the bracer blade. The bracer
+             blade can be used for stabbing attacks while still in the bracer, or it can be voluntarily removed to be thrown.
+             While withdrawn into the bracer, the bracer blade is completely undetectable; however, if it is identified, the
+             person identifying it knows what it is and what it does.</p>
+            <p><b>Chakram Dagger.</b> The blade of the chakram dagger, when in its primary form, perfectly 
+             resembles a normal chakram; when it shifts to its alternate form, the blade uncurls and straightens to form a dagger.</p>
+            <p><b>Collapsing Krull.</b> The collapsing krull is exactly like a normal krull, except that the
+             blades retract into the handle at the press of a button, allowing it to be carried and handled both more easily
+             and more safely.</p>
+            <p><b>Collapsing Shield.</b> The collapsing shield is not a weapon, but a shield that can 
+             mechanically fold together while still being worn to become more compact and portable. While not in its shield
+             form, a character can use both hands completely freely, including dual-wielding and wielding weapons with the 
+             Two-handed property. Otherwise, it is treated as a regular shield.</p>
+            <p><b>Collapsing Spearstaff.</b> The collapsing spearstaff is a special trick weapon; as opposed
+             to having two separate forms, the collapsing spearstaff technically has four: its primary form, a staff; its 
+             alternate form, an escrima; and a small blade that can emerge from either end while it is in either form. Though
+             it takes an action to change from the staff form to the escrima form, the blade can appear out of either end at-will.</p>
+            <p><b>Gundagger.</b> The gundagger has been built as a hybrid between the pistole and a normal
+             dagger; it can be used as a normal dagger as desired, but when the safety on the pommel is released, a small
+             trigger appears underneath the finger guard in the handle and a small hole opens in the tip of the blade. When
+             this triggered is pulled, a bullet is fired just like from a normal pistole. The gundagger must then be cleaned
+             and reloaded like a normal pistole before it can be fired again, however it can still be used as a dagger until 
+             it is. In addition, if the last action you performed with the gundagger was to stab a creature and you have not
+             moved, you can then fire the gundagger while it is still in the given creature as part of your attack action. This
+             shot is made with advantage and deals true damage.</p>
+            <p><b>Gunsword.</b> The gunsword functions much like the gundagger, except that it is a fusion 
+             between a broadsword and a musket instead of a dagger and a flintlock. In addition, in order to fire the gunsword,
+             a character must be holding it with two hands. Like the gundagger, the gunsword can also be fired while inside a
+             creature that you have just stabbed as part of your attack action. You could also pierce a creature with the gunsword,
+             and then fire at another creature behind that one as part of your attack action, though this will not be made with 
+             advantage or deal true damage.</p>
+            <p><b>Shortwhip.</b> The shortwhip is a lot like the beatlash, except that its primary form is an 
+             ordinary shortsword comprised of several tightly linked pieces, however its alternate form is a serrated whip, 
+             rather than a blunt one.</p>
+            <p><b>Sicklescythe.</b> In its primary form, the sicklescythe somewhat resembles a cross between a
+             sickle and a khopesh; a long curved blade with a strangely elongated handle. Much like the collapsing spearstaff,
+             however, this handle unfolds and elongates to become a full-blown warscythe.</p>
+            
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        
+    </body>
+   
+</html>

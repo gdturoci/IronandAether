@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+      
+        <title>Spellcasting</title>
+        
+        <link rel="stylesheet" href="../RulesStyle.css">
+        <script src="../RulesFunc.js"></script>
+    </head>
+    
+    <body>
+         <!--Site Nav-->
+        <!--Sidebar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times; &nbsp; Part 4: Classes</a>
+            <a href="./Introduction.html">Introduction</a>
+            <a href="./Artificer.html">Artificer</a>
+            <a href="./Mutant.html">Mutant</a>
+            <a href="./Psychokinetic.html">Psychokinetic</a>
+            <a href="./Rogue.html">Rogue</a>
+            <a href="./Warrior.html">Warrior</a>
+            <a href="./Spellcasting.html" class="active">Spellcasting</a>
+            <a href="./Aetherian.html">Aetherian</a>
+            <a href="./OtherworldlyArcanist.html">Otherworldly Arcanist</a>
+            <a href="./ClasslessFeats.html">Classless Feats</a>
+            <a href="./LevelingUp.html">Leveling Up</a>
+        </div>
+        
+        <!--Top navigation-->
+        <div class="topnav">
+
+            <!--Left-aligned links-->
+            <div class="topnavleft">
+                <a href="../../index.html">
+                    <img src="../../Artwork/Logo/Iron-Aether_transparent.png"
+                     width="100px" height="58px"
+                     alt="Iron & Aether">
+                </a>
+            </div>
+            
+            <!--Centered links-->
+            <div class="topnavcenterleft">
+                <a href="./Warrior.html">&larr; Prev</a>
+            </div>
+            <div class="topnavcenter">
+                <a href="../Home/RulesHome.html">Table of Contents</a>
+            </div>
+            <div class="topnavcenterright">
+                <a href="./Aetherian.html">Next &rarr;</a>
+            </div>
+            
+            <!--Right-aligned links-->
+            <div class="topnavdiscord">
+                <!--Discord button-->
+                <a href="https://discord.gg/n2kXGZJ" target="_blank">Discord</a>
+            </div>
+            <!--Right-aligned links-->
+            <div class="topnavright">
+                <!--Sidebar, does not push-->
+                <span onclick="openSide()">Part 4: Classes &ensp; &#9776;</span>
+            </div>
+
+        </div>
+        
+        
+        <div class="rules">
+        
+            <center><h1>Spellcasting</h1></center>
+            
+            <h2>Spells</h2>
+            <p>A spell is a special arcane effect produced by the power of the caster; in the
+             case of Aetherians, it is via their Aether, while for Otherworldly Arcanists, it is
+             through their knowledge of the eldritch otherworldly forces that permeate the world,
+             and their subsequent ability to manipulate those forces to achieve their goals.
+             Additionally, there are also enchanted items that are able to recreate the effects
+             of spells, such as wands and staves. Spells usually produce some sort of visible 
+             and immediately noticeable effect, though there are certainly exceptions to this.</p>
+            
+            <h2>Perceiving a Spell Being Cast</h2>
+            <p><b>Aetherian Spells.</b> All Aetherian spells require movement of some kind,
+             usually some sort of somatic allegory for what the spell is trying to do, e.g. 
+             when casting the spell <i>Burst</i> an Aeromancer might forcefully push their hands
+             out in a mimicry of what the spell is doing, or a Chronomancer might use their 
+             hands to wind back the arms of a spectral clock when casting <i>Rewind</i>. Because
+             of these movements, an Aetherian cannot cast spells while wearing Medium or Heavy
+             armor (except chain shirts) or Medium or larger shields. If an Aetherian wishes to
+             cast a spell subtly so as not to be noticed doing so, they can make a Sleight of
+             Hand check contested against the other party’s Perception check.</p>
+            <p><b>OA Spells.</b> TBD.</p>
+            
+            <center><h1 style="font-size:1.8em;">Aetherian Spellcasting</h1></center>
+            <h2>Spell Traits</h2>
+            <p>Every Aetherian spell has 8 traits which detail specific and important aspects of
+             the spell: <b>Mana Cost</b>, <b>Casting Time</b>, <b>Range</b>, <b>Damage</b>, 
+             <b>Save</b>, <b>Duration</b>, <b>Area of Effect</b>, and <b>Notable Effects</b>.
+             Aetherians can expend extra Mana to improve these traits, the rules for which are
+             covered further on.
+            <p><b>Mana Cost (M.C.).</b> The amount of Mana the caster must expend to unleash the
+             spell’s power; the caster’s maximum Mana must be <u>></u> to the Mana Cost of a 
+             spell for them to be able to cast it at all. When casting a spell, the caster must
+             subtract the Mana Cost of the spell from their remaining Mana; if the Mana Cost of
+             the spell is > their remaining Mana, they can still cast it, however their Mana 
+             will be reduced to 0 and their current Health will be depleted by 5 times the 
+             remaining difference.</p>
+            <p><b>Casting Time (C.T.).</b> How long it takes for the spell to be cast. If a 
+             spell has a casting time of more than 1 action, then the caster cannot take any 
+             other actions while casting or the casting will fail. Until the casting is complete,
+             the caster is considered to be concentrating (see <b>Duration</b> below) on the 
+             spell.</p>
+            <p><b>Range (Rng.).</b> How far away from the caster’s current position the origin 
+             point of the spell can be placed/the target(s) can be; the caster <b>must</b> have
+             line of sight on the origin point/target in order to cast the spell. If the caster
+             has line of sight but cannot actually see the origin point/target, then the damage
+             of the spell may be rolled with disadvantage, or if the spell requires a save, the
+             target can make it with advantage.</p>
+            <p><b>Damage (Dam.).</b> The type of damage (if any) a spell deals; spells always 
+             deal 3 Aether Dice of damage unless otherwise stated. The caster is immune to 
+             damage from their own spells.</p>
+            <p><b>Save.</b> What type of save, if any, is needed; saves are always made against
+             your Aether Save DR. The effects of failing the save will be given in <b>Notable 
+             Effects</b>. At the cost of 2 additional Mana, the caster can give one of the 
+             targets disadvantage on their save(s).</p>
+            <p><b>Duration (Dur.).</b> How long the spell can last. Spells with the 
+             <b>Concentration</b> tag as part of their duration require the caster’s constant
+             focus, and being attacked can cause the caster to lose focus, ending the spell 
+             prematurely. If a caster takes damage while casting a spell with the concentration
+             tag, they must make a Willpower save against twice the final damage dealt; on a 
+             failure, the spell ends. A caster can have only one concentration spell going at a
+             time.</p>
+            <p><b>Area of Effect (A.o.E.).</b> Detailed below.</p>
+            <p><b>Notable Effects (Efcs.).</b> What will happen inside the spell’s AoE/to its 
+             targets.</p>
+            
+            <h2>Areas of Effect</h2>
+            <p>A spell’s <b>Area of Effect (AoE)</b> gives the shape of the spell, as well as 
+             the dimensions of that shape. Each shape has a point of origin, or a spot from
+             which the spell’s power and energy erupts. The direction into which it erupts is 
+             usually up to the caster, though some spells default to the direction the caster is
+             facing.</p>
+            <p>The shape and dimensions of a spell’s AoE is specified in its description, and 
+             the different possible shapes (and their respective points of origin) are given 
+             here:
+            <ul>
+                <li>A <b>cone</b> has length and width and the point of origin is at the tip;</li>
+                <li>A <b>cube</b> has the length of the faces and the point of origin is in the
+                 middle of one face;</li>
+                <li>A <b>cylinder</b> has diameter and length and the point of origin is on one
+                 face;</li>
+                <li>A <b>line</b> has length (and sometimes height), is assumed to be 5 feet 
+                 wide, and the point of origin is at one end;</li>
+                <li>And a <b>sphere</b> has diameter and the point of origin is in the exact 
+                 center.</li>
+            </ul></p>
+            <p>Instead of a shape, a spell may specify a number of targets for the spell to 
+             affect. In this case, the spell’s description will specify what the targets must be
+             and how many of them. A creature will usually not know it has been targeted unless
+             the spell produces some sort of perceivable effect, though some spells, such as an
+             Animancer’s Read Thoughts, are not typically perceivable unless the spell’s 
+             description says otherwise.</p>
+            
+            <h2>Improving Spells</h2>
+            <p>Spells can be improved at the cost of additional Mana: typically, a spell’s 
+             <b>Range</b>, <b>Damage</b>, <b>Duration</b>, and <b>AoE</b> are what can be 
+             improved. Some spells are exceptions to the guidelines given here and will specify
+             in their descriptions if that is the case.</p>
+            <p><b>Range.</b> If a spell does not have a range of “Touch” or “Self”, then its 
+             range can be extended by 10 feet for every 1 extra Mana spent.</p>
+            <p><b>Damage.</b> A spell’s damage can be improved at the cost of 1 Mana per 
+             additional Aether Die.</p>
+            <p><b>Duration.</b> Improving spell duration is abnormal, and as such is given in 
+             table form; all improvements cost 1 Mana. When extending a spell’s duration, the
+             caster must expend the additional Mana at the time they extend the duration, e.g.
+             to extend a spell that lasts 1 minute past its original 
+             duration, 1 Mana must be spent at the end of the minute, automatically extending
+             the spell for another 2 rounds (unless they choose to end it early).</p>
+            <table>
+                <tr>
+                    <th>Base Duration</th>
+                    <th>Improvement</th>
+                </tr>
+                <tr>
+                    <td>Instantaneous</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td><u>&#60;</u> 1 minute</td>
+                    <td>+2 rounds</td>
+                </tr>
+                <tr>
+                    <td>2 - 10 minutes</td>
+                    <td>+1 minute</td>
+                </tr>
+                <tr>
+                    <td>11 - 60 minutes</td>
+                    <td>+5 minutes</td>
+                </tr>
+                <tr>
+                    <td>2 - 24 hours</td>
+                    <td>+1 hour</td>
+                </tr>
+                <tr>
+                    <td>> 1 day</td>
+                    <td>+12 hours</td>
+                </tr>
+            </table>
+            <p><b>Area of Effect.</b> To extend a spell’s AoE by 5 feet in a single dimension 
+             (such as making a cone 5 feet wider or a line 5 feet longer) costs 1 Mana. For 
+             target spells, additional targets can be selected at the cost of 2 Mana per target
+             or the Mana Cost of the spell, whichever is lower.</p>
+            
+            <h2>Enhanced Element</h2>
+            <p>Many Aetherian spells benefit from the Enhanced Element feature that they gain at
+             level 11. If a spell has the <b>EE Optional</b> tag in its description, the caster
+             can make use of their Enhanced Element feature to enhance the spell’s abilities 
+             (usually just altering the spell’s damage type); if a spell has the <b>EE Required</b>
+             tag, the caster cannot cast the spell until they reach level 11; a spell with
+             neither cannot be modified with the Enhanced Element feature at all.</p>
+            
+            <h2>Spell Traps</h2>
+            <p>Most any spell can be set as a trap. When it is, the spell becomes a glyph, or a 
+             circular collection of arcane runes, symbols, and energy that faintly glow with the
+             spell’s power and which must be <u>&#60;</u> 3 feet or <u>></u> 6 inches in 
+             diameter. A glyph cannot be disarmed or dispelled by any ordinary means, though 
+             when set off, the energy of the glyph is expended and it disappears. If a spell set
+             as a trap has a range, it targets itself, and if it has a direction for the AoE, 
+             that direction is the direction the glyph is facing.</p>
+            <p>There are 5 steps to setting a spell as a trap:
+            <ol>
+                <li>The caster casts the spell as normal;</li>
+                <li>They spend an additional amount of Mana equal to half the Mana spent on the
+                 spell, rounded down;</li>
+                <li>They designate a surface or small object that they can touch to embed the
+                 power and effects of the spell into; </li>
+                <li>They spend the casting time of the spell imbuing the spell’s power into that
+                 surface or object;</li>
+                <li>They set the conditions for the spell trap to trigger, e.g. touching the
+                 spell glyph, moving the object the glyph is placed on, opening the book the
+                 glyph was placed in, etc. All spell traps have the following condition: <b>if 
+                 the glyph is moved 10 feet from where it was placed, the spell goes off.</b></li>
+            </ol>
+            <p>To spot a glyph, a creature can make an Arcana or Perception check against what 
+             the caster’s Aether Save DR was at the time they made the glyph, and to determine
+             what spell the glyph contains, the creature can either be the same type of
+             Aetherian as the one who set the trap or succeed on an Arcana check against what 
+             the caster’s Aether Save DR was at the time they set the trap.</p>
+            
+        </div>
+        
+    </body>
+</html>
